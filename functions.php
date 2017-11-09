@@ -71,7 +71,7 @@ if ( ! function_exists( 'pacific_art_stone_setup' ) ) :
 		/**
 		 * Add support for core custom logo.
 		 *
-		 * @link https://codex.wordpress.org/Theme_Logo
+		 * @link
 		 */
 		add_theme_support( 'custom-logo', array(
 			'height'      => 250,
@@ -153,6 +153,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/jetpack.php';
+    require get_template_directory() . '/inc/jetpack.php';
+
+
 }
 
