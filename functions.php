@@ -158,3 +158,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 }
 
+if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page('Header Options');
+    acf_add_options_page('Footer Options');
+}

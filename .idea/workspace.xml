@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ac9400-baf8-4e51-ae2e-eb61632e4680" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,13 +23,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../plugins/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="525" column="6" lean-forward="false" selection-start-line="525" selection-start-column="6" selection-end-line="525" selection-end-column="6" />
+              <caret line="620" column="6" lean-forward="false" selection-start-line="620" selection-start-column="6" selection-end-line="620" selection-end-column="6" />
               <folding>
-                <element signature="e#272#26254#0#PHP" expanded="false" />
+                <element signature="e#272#29645#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,8 +38,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1608">
-              <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+            <state relative-caret-position="-10">
+              <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="422">
@@ -112,9 +111,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../../../123-sanna.dev/wp-content/plugins/sanna-custom-fields.php" />
+        <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/../../plugins/pas-custom-fields.php" />
-        <option value="$PROJECT_DIR$/page.php" />
       </list>
     </option>
   </component>
@@ -212,12 +211,12 @@
       <workItem from="1510163519761" duration="359000" />
       <workItem from="1510182161259" duration="39000" />
       <workItem from="1510241802928" duration="21000" />
-      <workItem from="1510242454083" duration="2842000" />
+      <workItem from="1510242454083" duration="3532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6580000" />
+    <option name="totallyTimeSpent" value="7270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1765" height="877" extended-state="0" />
@@ -268,7 +267,7 @@
         <state relative-caret-position="3912">
           <caret line="171" column="6" lean-forward="false" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
           <folding>
-            <element signature="e#272#26254#0#PHP" expanded="false" />
+            <element signature="e#272#29645#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -339,7 +338,7 @@
         <state relative-caret-position="264">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#272#26254#0#PHP" expanded="false" />
+            <element signature="e#272#29645#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -410,7 +409,7 @@
         <state relative-caret-position="264">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#272#26254#0#PHP" expanded="false" />
+            <element signature="e#272#29645#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,7 +440,7 @@
         <state relative-caret-position="264">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#272#26254#0#PHP" expanded="false" />
+            <element signature="e#272#29645#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -474,14 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/site-login-logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -519,21 +510,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../plugins/pas-custom-fields.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="525" column="6" lean-forward="false" selection-start-line="525" selection-start-column="6" selection-end-line="525" selection-end-column="6" />
-          <folding>
-            <element signature="e#272#26254#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/pas-custom-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="620" column="6" lean-forward="false" selection-start-line="620" selection-start-column="6" selection-end-line="620" selection-end-column="6" />
+          <folding>
+            <element signature="e#272#29645#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
