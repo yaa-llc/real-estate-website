@@ -159,6 +159,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 }
 
+//add theme options
+
 if( function_exists('acf_add_options_page') ) {
 
 acf_add_options_page(array(
@@ -181,4 +183,18 @@ acf_add_options_sub_page(array(
     'parent_slug'	=> 'theme-general-settings',
 ));
 
+}
+
+////register google api key
+//function my_acf_init() {
+//
+//    acf_update_setting('google_api_key', 'AIzaSyCPpzqZZY2iuDProTMpDZO_gEzSpAueCf4');
+//}
+//
+//add_action('acf/init', 'my_acf_init');
+
+// Enqueue Google Map scripts
+function themeprefix_google_map_script() {
+    wp_enqueue_script( 'google-map', get_stylesheet_directory_uri() . '/js/acf-js.js', array( 'jquery' ), '1.0.0', true );
+    wp_enqueue_script( 'google-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCPpzqZZY2iuDProTMpDZO_gEzSpAueCf4', null, null, true); // Add in your key
 }
