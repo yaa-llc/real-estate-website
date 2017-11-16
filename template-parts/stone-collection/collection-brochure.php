@@ -1,7 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: yaaotchere
- * Date: 2017-11-15
- * Time: 10:08 AM
- */
+<?php $stone_collection_brochure = get_field( 'stone_collection_brochure' ); ?>
+<?php if ( $stone_collection_brochure ) { ?>
+    <a href="<?php echo $stone_collection_brochure['url']; ?>"><?php echo $stone_collection_brochure['filename']; ?></a>
+<?php } ?>

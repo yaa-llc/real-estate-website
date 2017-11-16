@@ -1,7 +1,1 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: yaaotchere
- * Date: 2017-11-15
- * Time: 10:46 AM
- */
+<h1>stone nav</h1>

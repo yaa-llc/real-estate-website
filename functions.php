@@ -185,13 +185,13 @@ acf_add_options_sub_page(array(
 
 }
 
-////register google api key
-//function my_acf_init() {
-//
-//    acf_update_setting('google_api_key', 'AIzaSyCPpzqZZY2iuDProTMpDZO_gEzSpAueCf4');
-//}
-//
-//add_action('acf/init', 'my_acf_init');
+//register google api key
+function my_acf_init() {
+
+    acf_update_setting('google_api_key', 'AIzaSyCPpzqZZY2iuDProTMpDZO_gEzSpAueCf4');
+}
+
+add_action('acf/init', 'my_acf_init');
 
 // Enqueue Google Map scripts
 function themeprefix_google_map_script() {
