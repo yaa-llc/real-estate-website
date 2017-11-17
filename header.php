@@ -42,6 +42,21 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
+        <!-- Phone number and featured on houzz -->
+
+        <div class="header-featured">
+            <?php the_field( 'telephone_number', 'option' ); ?>
+            <?php if ( have_rows( 'featured_on_houzz_button', 'option' ) ) : ?>
+                <?php while ( have_rows( 'featured_on_houzz_button', 'option' ) ) : the_row(); ?>
+                    <?php $button_image = get_sub_field( 'button_image' ); ?>
+                    <?php if ( $button_image ) { ?>
+                        <img src="<?php echo $button_image['url']; ?>" alt="<?php echo $button_image['alt']; ?>" />
+                    <?php } ?>
+                    <?php the_sub_field( 'houzz_url' ); ?>
+                <?php endwhile; ?>
+            <?php endif; ?>
+        </div>
+
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'pacific-art-stone' ); ?></button>
 			<?php
