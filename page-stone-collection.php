@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<?php
 			while ( have_posts() ) : the_post();
-				// If comments are open or we have at least one comment, load up the comment template.
+
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
@@ -20,31 +20,34 @@ get_header(); ?>
 			endwhile; // End of the loop.
 			?>
 
+            <!-- the page title, main content & thumbnail, spec sheet download -->
+            <h2><?php the_title(); ?> Stone Collection</h2>
+            <section class="primary-content">
+                <?php get_template_part('template-parts/stone-collection/stone-nav'); ?>
+                <?php the_content(); ?>
+                <?php get_template_part('template-parts/stone-collection/spec-sheet'); ?>
+                <?php the_post_thumbnail(); ?>
+            </section>
+
 
             <?php if ( have_rows( 'stone_collection_information' ) ): ?>
                 <?php while ( have_rows( 'stone_collection_information' ) ) : the_row(); ?>
-                    <?php if ( get_row_layout() == 'link_group' ) : ?>
-                        <?php $stone_collection_brochure = get_sub_field( 'stone_collection_brochure' ); ?>
-                        <?php if ( $stone_collection_brochure ) { ?>
-                            <a href="<?php echo $stone_collection_brochure['url']; ?>"><?php echo $stone_collection_brochure['filename']; ?></a>
-                        <?php } ?>
-                        <?php the_sub_field( 'inspiration_gallery' ); ?>
-                    <?php elseif ( get_row_layout() == 'stone_styles' ) : ?>
-                        <?php the_sub_field( 'name_of_stone_style' ); ?>
-                        <?php $photos_of_stones_images = get_sub_field( 'photos_of_stones' ); ?>
-                        <?php if ( $photos_of_stones_images ) :  ?>
-                            <?php foreach ( $photos_of_stones_images as $photos_of_stones_image ): ?>
-                                <a href="<?php echo $photos_of_stones_image['url']; ?>">
-                                    <img src="<?php echo $photos_of_stones_image['sizes']['thumbnail']; ?>" alt="<?php echo $photos_of_stones_image['alt']; ?>" />
-                                </a>
-                                <p><?php echo $photos_of_stones_image['caption']; ?></p>
-                            <?php endforeach; ?>
-                        <?php endif; ?>
+
+                    <!-- Each group of styled stone -->
+                    <?php if ( get_row_layout() == 'stone_styles' ) : ?>
+                       <?php get_template_part('template-parts/stone-collection/stone-styles'); ?>
                     <?php endif; ?>
                 <?php endwhile; ?>
             <?php else: ?>
                 <?php // no layouts found ?>
             <?php endif; ?>
+
+            <section class="collection-cta">
+                <?php get_template_part('template-parts/stone-collection/brochure'); ?>
+                <a href="<?php the_permalink(10); ?>">Inspiration Gallery</a>
+                <a href="<?php the_permalink(16); ?>">Contact Us</a>
+            </section>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
