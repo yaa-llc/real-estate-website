@@ -24,6 +24,10 @@ get_header(); ?>
             endwhile; // End of the loop.
             ?>
 
+            <a href="http://via.placeholder.com/350x150" data-fancybox data-caption="My caption">
+                <img src="http://via.placeholder.com/350x150" alt="" />
+            </a>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

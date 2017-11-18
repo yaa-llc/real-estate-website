@@ -163,30 +163,30 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 if( function_exists('acf_add_options_page') ) {
 
-acf_add_options_page(array(
-    'page_title' 	=> 'Theme General Settings',
-    'menu_title'	=> 'Theme Settings',
-    'menu_slug' 	=> 'theme-general-settings',
-    //'capability'	=> 'edit_posts',
-    'redirect'		=> false
-));
+    acf_add_options_page(array(
+        'page_title' => 'Theme General Settings',
+        'menu_title' => 'Theme Settings',
+        'menu_slug' => 'theme-general-settings',
+        //'capability'	=> 'edit_posts',
+        'redirect' => false
+    ));
 
-acf_add_options_sub_page(array(
-    'page_title' 	=> 'Theme Header Settings',
-    'menu_title'	=> 'Header',
-    'parent_slug'	=> 'theme-general-settings',
-));
+    acf_add_options_sub_page(array(
+        'page_title' => 'Theme Header Settings',
+        'menu_title' => 'Header',
+        'parent_slug' => 'theme-general-settings',
+    ));
 
-acf_add_options_sub_page(array(
-    'page_title' 	=> 'Theme Footer Settings',
-    'menu_title'	=> 'Footer',
-    'parent_slug'	=> 'theme-general-settings',
-));
+    acf_add_options_sub_page(array(
+        'page_title' => 'Theme Footer Settings',
+        'menu_title' => 'Footer',
+        'parent_slug' => 'theme-general-settings',
+    ));
 
 
-
-// Google Maps isn't working so I will fix it later
-    function my_acf_init() {
+// Google Maps
+    function my_acf_init()
+    {
 
         acf_update_setting('google_api_key', 'AIzaSyDNHTS0hn1qceMzMU-FSm9u4_d0ftOLlsI');
     }
@@ -198,15 +198,16 @@ acf_add_options_sub_page(array(
     });
 
 
-
-    function my_theme_add_scripts() {
-        wp_enqueue_script( 'google-map', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB1-c8-tn_YTg6vzyjqF-_NlHhRetOur_4', array(), '3', true );
-        wp_enqueue_script( 'google-map-init', get_template_directory_uri() . '/js/google-maps.js', array('google-map', 'jquery'), '0.1', true );
+    function my_theme_add_scripts()
+    {
+        wp_enqueue_script('google-map', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB1-c8-tn_YTg6vzyjqF-_NlHhRetOur_4', array(), '3', true);
+        wp_enqueue_script('google-map-init', get_template_directory_uri() . '/js/google-maps.js', array('google-map', 'jquery'), '0.1', true);
     }
 
-    add_action( 'wp_enqueue_scripts', 'my_theme_add_scripts' );
+    add_action('wp_enqueue_scripts', 'my_theme_add_scripts');
 
-    function my_acf_google_map_api( $api ){
+    function my_acf_google_map_api($api)
+    {
 
         $api['key'] = 'AIzaSyB1-c8-tn_YTg6vzyjqF-_NlHhRetOur_4';
 
@@ -216,18 +217,16 @@ acf_add_options_sub_page(array(
 
     add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
 
-
-
-
 // remove automatic image link (because of the stone collectin page)
 
-function setup_default_image_link() {
-    $original_setting = get_option( 'image_default_link' );
-    if ($original_setting !== 'none') {
-        update_option('image_default_link', 'none');
+    function rkv_imagelink_setup() {
+        $image_set = get_option( 'image_default_link_type' );
+
+        if ($image_set !== 'none') {
+            update_option('image_default_link_type', 'none');
+        }
     }
-}
-add_action('admin_init', 'setup_default_image_link', 50);
+    add_action('admin_init', 'rkv_imagelink_setup', 10);
 
 
 }

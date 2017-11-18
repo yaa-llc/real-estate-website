@@ -30,8 +30,8 @@ get_header(); ?>
             </section>
 
 
-            <?php if ( have_rows( 'stone_collection_information' ) ): ?>
-                <?php while ( have_rows( 'stone_collection_information' ) ) : the_row(); ?>
+            <?php if ( have_rows( 'stone_collection_galleries' ) ): ?>
+                <?php while ( have_rows( 'stone_collection_galleries' ) ) : the_row(); ?>
 
                     <!-- Each group of styled stone -->
                     <?php if ( get_row_layout() == 'stone_styles' ) : ?>

@@ -13,6 +13,7 @@
 
 	</div><!-- #content -->
 
+
 	<footer id="colophon" class="site-footer">
         <div class="footer-collection footer-column">
             <?php if ( have_rows( 'collection_column', 'option' ) ) : ?>
@@ -81,6 +82,9 @@
         g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
         s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
 
 </body>
 </html>
