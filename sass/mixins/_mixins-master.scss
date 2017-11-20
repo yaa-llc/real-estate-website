@@ -32,3 +32,8 @@
 @mixin display-flex() {
 	display: flex;
 }
+
+//background color transition on hover (links etc)
+@mixin background-hover-transition {
+	transition: background 0.25s linear;
+}

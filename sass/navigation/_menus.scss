@@ -79,8 +79,38 @@
 	margin-left: 33px;
 }
 
+.sub-menu {
+	background: rgba(144,135,135,0.8);
+}
+
+//making the brick menu wider
+.menu-item-332 .sub-menu {
+	width: 110px;
+}
+
+.sub-menu li:first-child {
+	margin-top: 15px;
+}
+
+.sub-menu li:last-child {
+	margin-bottom: 18px;
+}
+
 .sub-menu li {
 	margin-left: 0;
+	width: 100%;
+	text-align: center;
+	//margin: 10px 0;
+}
+
+.sub-menu a {
+	color: white;
+	padding: 10px 0;
+}
+
+.sub-menu li:hover {
+	background: #908787;
+	@include background-hover-transition;
 }
 
 //ADD THE CUSTOM HOME PAGE NAV CODE HERE COLOUR, HOVER ETC
@@ -95,15 +125,6 @@
 	align-items: flex-end;
 	margin-top: -10px;
 	margin-bottom: 50px;
-}
-
-.sub-menu {
-	background: rgba(144,135,135,0.8);
-}
-
-.sub-menu a {
-	margin-left: 5px;
-	//text-align:center;
 }
 
 /* Small menu. */
