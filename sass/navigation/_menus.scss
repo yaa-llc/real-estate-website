@@ -1,8 +1,7 @@
 .main-navigation {
-	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
+	//overflow: auto;
+	margin-left: auto;
 
 	ul {
 		display: none;
@@ -24,6 +23,7 @@
 			}
 
 			li {
+				//margin-left: 33px;
 				&:hover > ul,
 				&.focus > ul {
 					left: 100%;
@@ -31,7 +31,8 @@
 			}
 
 			a {
-				width: 200px;
+				//width: 200px;
+				//margin-left: 33px;
 			}
 
 			:hover > a,
@@ -52,7 +53,6 @@
 	li {
 		float: left;
 		position: relative;
-
 		&:hover > a,
 		&.focus > a {
 		}
@@ -61,6 +61,11 @@
 	a {
 		display: block;
 		text-decoration: none;
+		color: #333333;
+		text-transform: uppercase;
+		font-weight: $font__weight-bold;
+		font-size: 13px;
+		//margin-left: 33px;
 	}
 
 	.current_page_item > a,
@@ -68,6 +73,37 @@
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 	}
+}
+
+.main-navigation li {
+	margin-left: 33px;
+}
+
+.sub-menu li {
+	margin-left: 0;
+}
+
+//ADD THE CUSTOM HOME PAGE NAV CODE HERE COLOUR, HOVER ETC
+
+.nav-wrapper {
+	max-width: 1200px;
+	@include center-block;
+	}
+
+.branding-navigation-group {
+	@include display-flex;
+	align-items: flex-end;
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+.sub-menu {
+	background: rgba(144,135,135,0.8);
+}
+
+.sub-menu a {
+	margin-left: 5px;
+	//text-align:center;
 }
 
 /* Small menu. */
@@ -105,3 +141,4 @@
 		width: 50%;
 	}
 }
+

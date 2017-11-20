@@ -1,0 +1,4 @@
+.inner-wrapper {
+  max-width: $size__site-wrapper;
+  @include center-block;
+}

@@ -228,5 +228,34 @@ if( function_exists('acf_add_options_page') ) {
     }
     add_action('admin_init', 'rkv_imagelink_setup', 10);
 
+    /* dump() - makes for easy debugging. <?php dump($post); ?> */
+    function dump($obj) {
+        echo "<pre>";
+        print_r($obj);
+        echo "</pre>";
+    }
 
+    //enqueue google fonts
+    function wpb_add_google_fonts() {
+
+        wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet', false );
+    }
+
+    add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+    //register custom headers
+    add_theme_support( 'custom-header' );
+
+    /*
+     * CUSTOMIZING THE DASHBOARD
+     * */
+
+    //link at bottom of page
+    function change_admin_footer(){
+        echo '<span id="footer-note">From your friends at <a href="http://www.kennedyanderson.ca" target="_blank">Kennedy Anderson Group</a>.</span>';
+    }
+    add_filter('admin_footer_text', 'change_admin_footer');
+
+    
 }
+

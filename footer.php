@@ -66,7 +66,7 @@
 			<span class="sep"> | </span>
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'pacific-art-stone' ), 'pacific-art-stone', '<a href="http://kennedyanderson.ca">Kennedy Anderson Group - Yaa Otchere</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'pacific-art-stone' ), 'pacific-art-stone', '<a href="http://kennedyanderson.ca">Kennedy Anderson Group</a>' );
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
@@ -83,7 +83,6 @@
         s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 
 
 </body>
