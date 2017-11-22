@@ -262,6 +262,12 @@ if( function_exists('acf_add_options_page') ) {
     }
     add_filter('admin_footer_text', 'change_admin_footer');
 
+    //[regular brochure quick link]
+    function pas_brochure_quick_link_func( $atts ){
+
+            return '<h1>brochure bee</h1>';
+}
+    add_shortcode( 'brochure', 'pas_brochure_quick_link_func' );
     
 }
 

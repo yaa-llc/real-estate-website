@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ac9400-baf8-4e51-ae2e-eb61632e4680" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-home.php" afterPath="$PROJECT_DIR$/header-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/navigation.js" afterPath="$PROJECT_DIR$/js/navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-home.php" afterPath="$PROJECT_DIR$/page-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/navigation/_links.scss" afterPath="$PROJECT_DIR$/sass/navigation/_links.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/navigation/_menus.scss" afterPath="$PROJECT_DIR$/sass/navigation/_menus.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/footer/_footer.scss" afterPath="$PROJECT_DIR$/sass/site/footer/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" afterPath="$PROJECT_DIR$/sass/site/header/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/typography/_copy.scss" afterPath="$PROJECT_DIR$/sass/typography/_copy.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/typography/_headings.scss" afterPath="$PROJECT_DIR$/sass/typography/_headings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-page.php" afterPath="$PROJECT_DIR$/template-parts/content-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/home/be-inspired.php" afterPath="$PROJECT_DIR$/template-parts/home/be-inspired.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/home/home-intro.php" afterPath="$PROJECT_DIR$/template-parts/home/home-intro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/home/home-slider.php" afterPath="$PROJECT_DIR$/template-parts/home/home-slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/home/quick-links.php" afterPath="$PROJECT_DIR$/template-parts/home/quick-links.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,31 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/site/footer/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header-home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_links.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/navigation/_links.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -126,11 +87,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_copy.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_copy.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/typography/_copy.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="488">
               <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="267" column="36" lean-forward="false" selection-start-line="267" selection-start-column="36" selection-end-line="267" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quick-links.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/home/quick-links.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template-parts/stone-collection/collection-brochure.php" />
         <option value="$PROJECT_DIR$/../../../../123-sanna.dev/wp-content/themes/wordpress_starter_theme-master/footer.php" />
         <option value="$PROJECT_DIR$/js/acf-js.js" />
         <option value="$PROJECT_DIR$/sass/elements/_elements.scss" />
@@ -208,7 +188,6 @@
         <option value="$PROJECT_DIR$/header-home.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$USER_HOME$/Desktop/llc-html-css-multi-page-site-master/slides.html" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/../../plugins/pas-custom-fields.php" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
@@ -220,6 +199,8 @@
         <option value="$PROJECT_DIR$/sass/site/footer/_footer.scss" />
         <option value="$PROJECT_DIR$/template-parts/home/home-intro.php" />
         <option value="$PROJECT_DIR$/sass/typography/_copy.scss" />
+        <option value="$PROJECT_DIR$/template-parts/home/quick-links.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -372,12 +353,12 @@
       <workItem from="1511139061498" duration="21000" />
       <workItem from="1511182426647" duration="28382000" />
       <workItem from="1511275092622" duration="5265000" />
-      <workItem from="1511293787162" duration="7060000" />
+      <workItem from="1511293787162" duration="8377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96215000" />
+    <option name="totallyTimeSpent" value="97532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -438,13 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -686,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="186" column="25" lean-forward="false" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../plugins/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -802,6 +768,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/home/quick-links.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="267" column="36" lean-forward="false" selection-start-line="267" selection-start-column="36" selection-end-line="267" selection-end-column="36" />
           <folding />
         </state>
       </provider>
