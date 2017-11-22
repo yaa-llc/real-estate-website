@@ -1,5 +1,6 @@
 p {
 	margin-bottom: 1.5em;
+	font-size: 14px;
 }
 
 dfn, cite, em, i {
@@ -42,4 +43,24 @@ mark, ins {
 
 big {
 	font-size: 125%;
+}
+
+.banner-text {
+	font-weight: $font__weight-light;
+	font-size: 28px;
+}
+
+.p2 {
+	//font-weight: $font__weight-regular;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.p3 {
+	font-size: 18px;
+	margin-top:0;
+}
+
+.intro-text-content {
+	text-align: center;
 }

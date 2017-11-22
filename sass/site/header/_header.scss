@@ -1,6 +1,6 @@
-//header {
-//  max-width:1200px;
-//}
+.header-home {
+  height: 1100px;
+}
 
 .header-featured {
   justify-content: flex-end;
@@ -8,7 +8,7 @@
   margin-top: 15px;
 }
 
-.header-featured,.header-default  {
+.header-featured, header  {
   @include display-flex;
 }
 
@@ -30,7 +30,7 @@
   }
 }
 
-.header-default {
+header {
   height: 500px;
   align-items: center;
 }

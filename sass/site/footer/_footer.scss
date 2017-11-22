@@ -1,0 +1,48 @@
+footer, footer a {
+  color: white;
+}
+
+footer {
+  background: #333333;
+  //display: flex;
+  font-size: 14px;
+}
+
+footer a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer h5 {
+  margin: 40px 0 20px;
+}
+
+footer ul {
+  margin-left:0;
+  padding-left:0;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+.footer-wrapper {
+  display: flex;
+
+}
+
+.footer-column {
+  //border: 1px solid royalblue;
+  width: 20%;
+  //margin-left: 60px;
+}
+
+.footer-contact a {
+  text-transform: capitalize;
+}
+
+.footer-showroom a, .site-info a {
+  display: inline-block;
+}
+

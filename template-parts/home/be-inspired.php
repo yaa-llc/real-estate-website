@@ -1,4 +1,4 @@
-<?php the_sub_field( 'be_inspired_section_title' ); ?>
+<h2><?php the_sub_field( 'be_inspired_section_title' ); ?></h2>
 <?php the_sub_field( 'be_inspired_cta_main_text' ); ?>
 <?php the_sub_field( 'be_inspired_cta_secondary_text' ); ?>
 <?php $be_inspired_cta_link = get_sub_field( 'be_inspired_cta_link' ); ?>

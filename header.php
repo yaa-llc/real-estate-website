@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
 
 
     <?php wp_head(); ?>
@@ -24,7 +25,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pacific-art-stone' ); ?></a>
-    <?/*php
+<?/*php
 	<header id="masthead" class="site-header">
 
         <!-- Phone number and featured on houzz -->
@@ -70,22 +71,13 @@
             ?>
         </nav><!-- #site-navigation -->
 
-        <?php
-        if(is_front_page() && is_home() ){
 
-            get_header('home');
 
-        }
-
-        else{
-
-            get_header();// Calls the default header is any other page is created
-
-        }?>
 
 
 	</header><!-- #masthead -->
-    */?>
+*/?>
+
     <div class="nav-wrapper">
         <!-- Phone number and featured on houzz -->
         <div class="header-featured">
@@ -133,7 +125,7 @@
     <!-- Getting the post thumbnail as making it the background image of the header -->
     <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
 
-    <header class="header-default image-overlay" style="background:linear-gradient(
+    <header class="image-overlay" style="background:linear-gradient(
             rgba(51, 51, 60, 0.7),
             rgba(51, 51, 60, 0.7)
             ), url('<?php echo $backgroundImg[0]; ?>')">

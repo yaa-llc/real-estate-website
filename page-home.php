@@ -5,7 +5,18 @@
  * @package Pacific_Art_Stone
  */
 
-get_header(); ?>
+?>
+  <?php
+    if ( is_page('home')){
+            get_header('home');
+            //echo '<h1>home</h1>';
+        }
+
+        else{
+
+            get_header();// Calls the default header is any other page is created
+
+        }?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">

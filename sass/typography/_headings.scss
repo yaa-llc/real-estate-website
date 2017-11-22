@@ -2,6 +2,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
+//page headings
 h1 {
 	font-family: $font__main;
 	font-size: 60px;
@@ -11,4 +12,14 @@ h1 {
 
 h2, h3, h4, h5, h6 {
 	color: #908787;
+}
+
+//feature titles (home)
+h2 {
+	font-weight: $font__weight-bold;
+	font-size: 28px;
+}
+
+h5 {
+	text-transform: uppercase;
 }

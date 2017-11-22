@@ -15,62 +15,114 @@
 
 
 	<footer id="colophon" class="site-footer">
-        <div class="footer-collection footer-column">
-            <?php if ( have_rows( 'collection_column', 'option' ) ) : ?>
-                <?php while ( have_rows( 'collection_column', 'option' ) ) : the_row(); ?>
-                    <?php the_sub_field( 'stone_collection_footer_link' ); ?>
-                <?php endwhile; ?>
-            <?php else : ?>
-                <?php // no rows found ?>
-            <?php endif; ?>
+        <div class="inner-wrapper footer-wrapper">
+
+            <!-- Collections Column -->
+            <div class="footer-collection footer-column">
+                <h5>Collections</h5>
+                <?php if ( have_rows( 'collection_column', 'option' ) ) : ?>
+                    <?php while ( have_rows( 'collection_column', 'option' ) ) : the_row(); ?>
+                        <a href="<?php the_sub_field( 'stone_collection_footer_link' ); ?>"><?php the_sub_field( 'stone_collection_link_text' ); ?></a>
+                    <?php endwhile; ?>
+                <?php else : ?>
+                    <?php // no rows found ?>
+                <?php endif; ?>
+            </div>
+
+            <!-- Resources Column -->
+            <div class="footer-resources footer-column">
+                <h5>Resources</h5>
+                <?php if ( have_rows( 'resources_column', 'option' ) ) : ?>
+                    <?php while ( have_rows( 'resources_column', 'option' ) ) : the_row(); ?>
+                        <?php $footer_inspiration_gallery_link = get_sub_field( 'footer_inspiration_gallery_link' ); ?>
+                        <?php if ( $footer_inspiration_gallery_link ) { ?>
+                            <a href="<?php echo $footer_inspiration_gallery_link['url']; ?>" target="<?php echo $footer_inspiration_gallery_link['target']; ?>"><?php the_sub_field( 'inspiration_link_text' ); ?></a>
+                        <?php } ?>
+                        <a href="<?php the_sub_field( 'dealer_page_link' ); ?>"><?php the_sub_field( 'dealer_link_text' ); ?></a>
+
+                        <?php $footer_brochure_file = get_sub_field( 'footer_brochure_file' ); ?>
+                        <?php if ( $footer_brochure_file ) { ?>
+                            <a href="<?php echo $footer_brochure_file['url']; ?>"><?php the_sub_field( 'brochure_download_text' ); ?></a>
+                        <?php } ?>
+
+                        <a href="<?php the_sub_field( 'about_page_link' ); ?>"><?php the_sub_field( 'about_page_link_text' ); ?></a>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            </div>
+
+            <!-- Spacer Div -->
+            <div class="footer-column">
+                <!-- Space -->
+            </div>
+
+            <!-- Showroom Column -->
+            <div class="footer-showroom footer-column">
+                <h5>Showroom</h5>
+                <?php if ( have_rows( 'showroom_column', 'option' ) ) : ?>
+                    <?php while ( have_rows( 'showroom_column', 'option' ) ) : the_row(); ?>
+                        <ul>
+                            <li><?php the_sub_field( 'address_line_1' ); ?></li>
+                            <li><?php the_sub_field( 'address_line_2' ); ?></li>
+                            <li><?php the_sub_field( 'hours' ); ?></li>
+                        </ul>
+
+
+
+
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
+            <!-- Social -->
+
+                <h5>Follow Us</h5>
+                <?php if ( have_rows( 'social_media_accounts', 'option' ) ) : ?>
+                    <?php while ( have_rows( 'social_media_accounts', 'option' ) ) : the_row(); ?>
+                        <a href="<?php the_sub_field( 'social_media_link' ); ?>"><?php the_sub_field( 'social_media_icon' ); ?></a>
+
+                    <?php endwhile; ?>
+                <?php else : ?>
+                    <?php // no rows found ?>
+                <?php endif; ?>
+            </div>
+
+            <!-- Contact Us -->
+            <div class="footer-contact footer-column">
+                <h5>Contact Us</h5>
+                <?php if ( have_rows( 'contact_us_column', 'option' ) ) : ?>
+                    <?php while ( have_rows( 'contact_us_column', 'option' ) ) : the_row(); ?>
+                        <ul>
+                            <li>
+                                <a href="tel:<?php the_sub_field( 'footer_telephone' ); ?>"><?php the_sub_field( 'footer_telephone' ); ?></a>
+                            </li>
+                            <li><?php the_sub_field( 'footer_fax' ); ?></li>
+                            <li>
+                                <a href="mailto:<?php the_sub_field( 'email_us' ); ?>">Email Us</a>
+                            </li>
+                            <li>
+                                <a href="<?php the_sub_field( 'dealer_inquiries' ); ?>">Dealer Inquiries</a>
+                            </li>
+                            <li>
+                                <a href="<?php the_sub_field( 'returns_and_warranties' ); ?>">Returns + Warranties</a>
+                            </li>
+                        </ul>
+
+
+
+
+
+
+
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            </div>
+
         </div>
 
-        <div class="footer-resources footer-column">
-            <?php if ( have_rows( 'resources_column', 'option' ) ) : ?>
-                <?php while ( have_rows( 'resources_column', 'option' ) ) : the_row(); ?>
-                    <?php the_sub_field( 'resources_footer_link' ); ?>
-                <?php endwhile; ?>
-            <?php else : ?>
-                <?php // no rows found ?>
-            <?php endif; ?>
-        </div>
+        <div class="site-info inner-wrapper">
+            Website by: <a href="http://kennedyanderson.ca">Kennedy Anderson Group</a>
+        </div><!-- .site-info -->
 
-        <div class="footer-showroom footer-column">
-
-            <?php if ( have_rows( 'showroom_column', 'option' ) ) : ?>
-                <?php while ( have_rows( 'showroom_column', 'option' ) ) : the_row(); ?>
-                    <?php the_sub_field( 'address_line_1' ); ?>
-                    <?php the_sub_field( 'address_line_2' ); ?>
-                    <?php the_sub_field( 'hours' ); ?>
-                <?php endwhile; ?>
-            <?php endif; ?>
-        </div>
-
-        <div class="footer-contact footer-column">
-            <?php if ( have_rows( 'contact_us_column', 'option' ) ) : ?>
-                <?php while ( have_rows( 'contact_us_column', 'option' ) ) : the_row(); ?>
-                    <?php the_sub_field( 'footer_telephone' ); ?>
-                    <?php the_sub_field( 'footer_fax' ); ?>
-                    <?php the_sub_field( 'email_us' ); ?>
-                    <?php the_sub_field( 'dealer_inquiries' ); ?>
-                    <?php the_sub_field( 'returns_and_warranties' ); ?>
-                <?php endwhile; ?>
-            <?php endif; ?>
-        </div>
-
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'pacific-art-stone' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'pacific-art-stone' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'pacific-art-stone' ), 'pacific-art-stone', '<a href="http://kennedyanderson.ca">Kennedy Anderson Group</a>' );
-			?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+    </footer><!-- #colophon -->
 
 <?php wp_footer(); ?>
 
@@ -83,6 +135,7 @@
         s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
 
 
 </body>

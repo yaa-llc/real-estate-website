@@ -10,7 +10,7 @@
 		padding-left: 0;
 
 		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			//box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			float: left;
 			position: absolute;
 			top: 100%;
@@ -77,6 +77,15 @@
 
 .main-navigation li {
 	margin-left: 33px;
+	border-bottom: 1px solid $color__background-body;
+	//margin-bottom: -1px;
+	transition: border-bottom 0.25s linear;
+}
+
+.main-navigation li:hover {
+	border-bottom: 1px solid #908787;
+	margin-bottom: -1px;
+	//padding-bottom: 50px;
 }
 
 .sub-menu {
@@ -97,20 +106,26 @@
 }
 
 .sub-menu li {
-	margin-left: 0;
+	margin: 0;
 	width: 100%;
 	text-align: center;
+	//padding-bottom: 0;
 	//margin: 10px 0;
+	//padding: 10px 0;
+	border-bottom: none;
 }
 
 .sub-menu a {
 	color: white;
-	padding: 10px 0;
+	padding: 5px 0;
+	display: block;
 }
 
 .sub-menu li:hover {
 	background: #908787;
 	@include background-hover-transition;
+	//border-bottom: 1px solid #908787;
+	//padding-bottom: 0;
 }
 
 //ADD THE CUSTOM HOME PAGE NAV CODE HERE COLOUR, HOVER ETC
