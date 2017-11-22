@@ -1,3 +1,5 @@
+//for my components like quick-links
+
 .widget {
 	margin: 0 0 1.5em;
 
@@ -6,3 +8,32 @@
 		max-width: 100%;
 	}
 }
+
+.quick-links-section {
+	padding: 45px 0 75px;
+}
+
+.quick-links-wrapper {
+	@include display-flex;
+	justify-content:space-between;
+	max-width: 800px;
+	margin: auto;
+}
+
+.quick-links {
+	width: 360px;
+	height: 220px;
+	position: relative;
+	display: inline-block;
+}
+
+.quick-links a {
+	@include absolute-center;
+	text-decoration: none;
+	//color: white;
+}
+
+.quick-links:first-child {
+	//margin-left: auto;
+}
+

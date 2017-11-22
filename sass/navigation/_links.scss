@@ -17,3 +17,14 @@ a {
 		outline: 0;
 	}
 }
+
+.block-link {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: $font__weight-bold;
+	display: block;
+	border: 1px solid white;
+	padding: 5px;
+	text-align: center;
+}

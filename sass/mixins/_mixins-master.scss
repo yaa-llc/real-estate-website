@@ -37,3 +37,10 @@
 @mixin background-hover-transition {
 	transition: background 0.25s linear;
 }
+
+@mixin absolute-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
