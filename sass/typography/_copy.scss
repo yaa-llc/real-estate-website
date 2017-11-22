@@ -45,6 +45,10 @@ big {
 	font-size: 125%;
 }
 
+.intro-text-content {
+	margin-top: 100px;
+}
+
 .banner-text {
 	font-weight: $font__weight-light;
 	font-size: 28px;
@@ -54,6 +58,7 @@ big {
 	//font-weight: $font__weight-regular;
 	font-size: 28px;
 	margin-bottom: 20px;
+	margin-top: 0;
 }
 
 .p3 {

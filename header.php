@@ -125,10 +125,7 @@
     <!-- Getting the post thumbnail as making it the background image of the header -->
     <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
 
-    <header class="image-overlay" style="background:linear-gradient(
-            rgba(51, 51, 60, 0.7),
-            rgba(51, 51, 60, 0.7)
-            ), url('<?php echo $backgroundImg[0]; ?>')">
+    <header class="image-overlay" style="background:linear-gradient(rgba(51, 51, 60, 0.7),rgba(51, 51, 60, 0.7)), url('<?php echo $backgroundImg[0]; ?>')">
             <div class="inner-wrapper flex-title">
                 <h1><?php the_title(); ?></h1>
             </div>
