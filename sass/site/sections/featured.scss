@@ -1,3 +1,23 @@
+.feature-wrapper {
+  padding: 140px 0;
+}
+
+.feature-wrapper {
+  @include display-flex;
+}
+
 .featured-image-wrapper {
-  border: 1px red solid;
+  //border: 1px red solid;
+  //width: 574px;
+  //height: auto;
+  height: 370px;
+}
+
+.featured-text-wrapper {
+  //border: 1px lawngreen solid;
+  padding-right:70px; //to give it space beside the photo
+}
+
+.half {
+  width:50%;
 }
