@@ -25,7 +25,7 @@ a {
 	font-weight: $font__weight-bold;
 	//display: block;
 	border: 1px solid white;
-	padding: 5px;
+	padding: 20px 10px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -33,4 +33,5 @@ a {
 .block-link.featured {
 	color: #908787;
 	border: 1px solid #908787;
+	margin-top: 40px;
 }

@@ -8,12 +8,13 @@
             <!-- adding a class of half to see if I can make this easier for media queries. ie) at phone half = 75% -->
             <div class="featured-text-wrapper half">
                 <h4><?php the_sub_field( 'section_title' ); ?></h4>
-                <h2><?php $post_object = get_sub_field( 'stone_collection' ); ?></h2>
-                <p><?php the_sub_field( 'stone_collection_description' ); ?></p>
+                <?php $post_object = get_sub_field( 'stone_collection' ); ?>
                 <?php if ( $post_object ): ?>
                     <?php $post = $post_object; ?>
                     <?php setup_postdata( $post ); ?>
-                    <a href="<?php the_permalink(); ?>" class="block-link featured"><?php the_title(); ?></a>
+                    <h2><?php the_title(); ?></h2>
+                    <p><?php the_sub_field( 'stone_collection_description' ); ?></p>
+                    <a href="<?php the_permalink(); ?>" class="block-link featured"><?php the_sub_field( 'stone_collection_link_text' ); ?></a>
                     <?php wp_reset_postdata(); ?>
                 <?php endif; ?>
             </div>

@@ -1,9 +1,10 @@
 .feature-wrapper {
-  padding: 140px 0;
+  padding: 145px 0;
 }
 
 .feature-wrapper {
   @include display-flex;
+  //display: flex;
 }
 
 .featured-image-wrapper {

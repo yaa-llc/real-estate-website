@@ -4,8 +4,8 @@
 	font-size: $sizeValue * 1rem;
 }
 
-// Center block
-@mixin center-block {
+// Center bloc
+@mixin center-block() {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -34,11 +34,11 @@
 }
 
 //background color transition on hover (links etc)
-@mixin background-hover-transition {
+@mixin background-hover-transition() {
 	transition: background 0.25s linear;
 }
 
-@mixin absolute-center {
+@mixin absolute-center() {
 	position: absolute;
 	top: 50%;
 	left: 50%;

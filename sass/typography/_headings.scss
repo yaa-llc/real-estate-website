@@ -15,10 +15,22 @@ h2, h3, h4, h5, h6 {
 	color: #908787;
 }
 
+//beinspired maian text content
+.be-inspired, .be-inspired h2 {
+	color:white;
+}
+
 //feature titles (home)
 h2 {
 	font-weight: $font__weight-bold;
 	font-size: 28px;
+	color: #333333;
+	text-transform: capitalize;
+}
+
+//feature headers (be inspired etc)
+h4 {
+	margin-bottom: 30px;
 }
 
 h5 {
