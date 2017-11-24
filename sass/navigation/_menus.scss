@@ -142,6 +142,26 @@
 	margin-bottom: 50px;
 }
 
+//dealing with HOME PAGE
+
+.home .branding-navigation-group {
+	margin-bottom:0;
+}
+
+.home .nav-wrapper {
+	position: absolute;
+	top:0;
+	z-index: 10;
+}
+
+.home .main-navigation a {
+	color: white;
+}
+
+.home .main-navigation li {
+	border-bottom: none;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {

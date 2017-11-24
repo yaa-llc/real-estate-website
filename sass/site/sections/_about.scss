@@ -1,0 +1,16 @@
+.about-wrapper {
+  @include display-flex;
+}
+
+.about-image {
+  width: 575px;
+  height: 410px;
+}
+
+.primary-text {
+  padding: 170px 0;
+}
+
+.primary-text:nth-child(odd) {
+  background: white;
+}

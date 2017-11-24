@@ -52,8 +52,8 @@
 
             <!-- Spacer Div -->
             <div class="footer-column">
-                <!-- Space -->
-            </div>
+               <!-- Space -->
+           </div>
 
             <!-- Showroom Column -->
             <div class="footer-showroom footer-column">
@@ -126,6 +126,7 @@
 
 <?php wp_footer(); ?>
 
+
 <script>
     // scripts.js, plugins.js and jquery are enqueued in functions.php
     /* Google Analytics! */
@@ -136,6 +137,13 @@
 </script>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+<script>
+    var list = document.getElementsByClassName("about-content");
+    for (var i = 0; i < list.length; i++) {
+        list[i].setAttribute("id", "about-section" + i);
+    }
+</script>
 
 
 </body>

@@ -23,7 +23,9 @@ get_header(); ?>
 	</div><!-- #primary -->
 
     <section class="instagram">
-        <?php the_field( 'instragram_shortcode' ); ?>
+        <div class="inner-wrapper">
+            <?php the_field( 'instragram_shortcode' ); ?>
+        </div>
     </section>
 
 <?php

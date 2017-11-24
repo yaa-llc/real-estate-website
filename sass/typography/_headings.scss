@@ -9,15 +9,17 @@ h1 {
 	font-size: 60px;
 	color: white;
 	font-weight: $font__weight-light;
+	text-transform: none;
 }
 
 h2, h3, h4, h5, h6 {
 	color: #908787;
 }
 
-//beinspired maian text content
+//beinspired main text content
 .be-inspired, .be-inspired h2 {
 	color:white;
+	text-transform: none;
 }
 
 //feature titles (home)
