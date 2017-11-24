@@ -24,9 +24,20 @@ get_header(); ?>
             <h2><?php the_title(); ?> Stone Collection</h2>
             <section class="primary-content">
                 <?php get_template_part('template-parts/stone-collection/stone-nav'); ?>
-                <?php the_content(); ?>
-                <?php get_template_part('template-parts/stone-collection/spec-sheet'); ?>
-                <?php the_post_thumbnail(); ?>
+            <div class="inner-wrapper">
+                <div class="stone-collection-wrapper content-wrapper">
+                    <div class="half text">
+                        <?php the_content(); ?>
+                    </div>
+
+                    <div class="half stone-collection-image-wrapper">
+                        <?php the_post_thumbnail(); ?>
+                    </div>
+
+                </div>
+            </div>
+
+
             </section>
 
 

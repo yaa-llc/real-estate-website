@@ -4,9 +4,9 @@
 
 <section class="featured-collection" style="background:url('<?php echo $stone_collection_background_image['url']; ?>')">
     <div class="inner-wrapper">
-        <div class="feature-wrapper">
+        <div class="feature-wrapper content-wrapper">
             <!-- adding a class of half to see if I can make this easier for media queries. ie) at phone half = 75% -->
-            <div class="featured-text-wrapper half">
+            <div class="featured-text-wrapper half text">
                 <h4><?php the_sub_field( 'section_title' ); ?></h4>
                 <?php $post_object = get_sub_field( 'stone_collection' ); ?>
                 <?php if ( $post_object ): ?>

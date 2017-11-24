@@ -37,7 +37,7 @@
                         <?php get_template_part('template-parts/home/be-inspired'); ?>
 
                     <?php elseif ( get_row_layout() == 'stone_collection_section' ) : ?>
-                        <?php get_template_part('template-parts/home/stone-collection'); ?>
+                        <?php get_template_part('template-parts/home/featured-stone'); ?>
 
                     <?php elseif ( get_row_layout() == 'instagram_feed' ) : ?>
                         <?php get_template_part('template-parts/home/instagram'); ?>
