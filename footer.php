@@ -19,7 +19,7 @@
 
             <!-- Collections Column -->
             <div class="footer-collection footer-column">
-                <h5>Collections</h5>
+                <h4>Collections</h4>
                 <?php if ( have_rows( 'collection_column', 'option' ) ) : ?>
                     <?php while ( have_rows( 'collection_column', 'option' ) ) : the_row(); ?>
                         <a href="<?php the_sub_field( 'stone_collection_footer_link' ); ?>"><?php the_sub_field( 'stone_collection_link_text' ); ?></a>
@@ -31,7 +31,7 @@
 
             <!-- Resources Column -->
             <div class="footer-resources footer-column">
-                <h5>Resources</h5>
+                <h4>Resources</h4>
                 <?php if ( have_rows( 'resources_column', 'option' ) ) : ?>
                     <?php while ( have_rows( 'resources_column', 'option' ) ) : the_row(); ?>
                         <?php $footer_inspiration_gallery_link = get_sub_field( 'footer_inspiration_gallery_link' ); ?>
@@ -57,7 +57,7 @@
 
             <!-- Showroom Column -->
             <div class="footer-showroom footer-column">
-                <h5>Showroom</h5>
+                <h4>Showroom</h4>
                 <?php if ( have_rows( 'showroom_column', 'option' ) ) : ?>
                     <?php while ( have_rows( 'showroom_column', 'option' ) ) : the_row(); ?>
                         <ul>
@@ -74,7 +74,7 @@
 
             <!-- Social -->
 
-                <h5>Follow Us</h5>
+                <h4>Follow Us</h4>
                 <?php if ( have_rows( 'social_media_accounts', 'option' ) ) : ?>
                     <?php while ( have_rows( 'social_media_accounts', 'option' ) ) : the_row(); ?>
                         <a href="<?php the_sub_field( 'social_media_link' ); ?>"><?php the_sub_field( 'social_media_icon' ); ?></a>
@@ -87,7 +87,7 @@
 
             <!-- Contact Us -->
             <div class="footer-contact footer-column">
-                <h5>Contact Us</h5>
+                <h4>Contact Us</h4>
                 <?php if ( have_rows( 'contact_us_column', 'option' ) ) : ?>
                     <?php while ( have_rows( 'contact_us_column', 'option' ) ) : the_row(); ?>
                         <ul>
@@ -137,6 +137,8 @@
 </script>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
 
 <script>
     var list = document.getElementsByClassName("about-content");

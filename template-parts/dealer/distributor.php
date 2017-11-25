@@ -59,9 +59,9 @@
 
 <?php if ( have_rows( 'distributors' ) ) : ?>
     <?php while ( have_rows( 'distributors' ) ) : the_row(); ?>
+        <div class="acf-map">
+
         <?php the_sub_field( 'distributor_name' ); ?>
-
-
         <?php // distributor_type ( value )
         $distributor_type_array = get_sub_field( 'distributor_type' );
         if ( $distributor_type_array ):
@@ -69,15 +69,13 @@
                 echo $distributor_type_item;
             endforeach;
         endif; ?>
-
-
         <?php $distributor_address = get_sub_field( 'distributor_address' ); ?>
-
-<!--        <div class="acf-map">-->
-<!--            <div class="marker" data-lat="--><?php //echo $distributor_address['lat']; ?><!--" data-lng="--><?php //echo $distributor_address['lng']; ?><!--"></div>-->
-<!--        </div>-->
-
         <?php if ( $distributor_address ) { ?>
+            <div class="marker" data-lat="<?php echo $distributor_address['lat']; ?>" data-lng="<?php echo $distributor_address['lng']; ?>">
+                <h4><?php the_sub_field('title'); ?></h4>
+                <p class="address"><?php echo $distributor_address['address']; ?></p>
+                <p><?//php the_sub_field('description'); ?></p>
+            </div>
             <?php echo $distributor_address['address']; ?>
             <?//php echo $distributor_address['lat']; ?>
             <?//php echo $distributor_address['lng']; ?>
@@ -85,7 +83,7 @@
         <?php the_sub_field( 'distributor_phone_number' ); ?>
         <?php the_sub_field( 'distributor_website' ); ?>
     <?php endwhile; ?>
+    </div>
 <?php else : ?>
     <?php // no rows found ?>
 <?php endif; ?>
-
