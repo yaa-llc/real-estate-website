@@ -1,1 +1,29 @@
- 
+.individual-stone-style {
+  margin-right: 20px;
+}
+
+.individual-stone-style:nth-child(3n) {
+  margin-right: 0;
+}
+
+.individual-stone-style h4 {
+  text-align: center;
+}
+
+.flex-stone-collection {
+  //justify-content: space-between;
+  flex-wrap: wrap;
+  //fles: 0 0 382px;
+}
+
+.collection-cta {
+  text-align: center;
+}
+
+.collection-cta a {
+  margin-right:65px;
+}
+
+.collection-cta a:last-child {
+  margin-right: 0;
+}

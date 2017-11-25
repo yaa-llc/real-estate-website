@@ -21,7 +21,6 @@ get_header(); ?>
 			?>
 
             <!-- the page title, main content & thumbnail, spec sheet download -->
-            <h2><?php the_title(); ?> Stone Collection</h2>
             <section class="primary-content">
                 <?php get_template_part('template-parts/stone-collection/stone-nav'); ?>
             <div class="inner-wrapper">
@@ -55,8 +54,8 @@ get_header(); ?>
 
             <section class="collection-cta">
                 <?php get_template_part('template-parts/stone-collection/brochure'); ?>
-                <a href="<?php the_permalink(10); ?>">Inspiration Gallery</a>
-                <a href="<?php the_permalink(16); ?>">Contact Us</a>
+                <a href="<?php the_permalink(10); ?>" class="block-link featured">Inspiration Gallery</a>
+                <a href="<?php the_permalink(16); ?>" class="block-link featured">Contact Us</a>
             </section>
 
 
