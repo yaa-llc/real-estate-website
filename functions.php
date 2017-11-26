@@ -123,6 +123,9 @@ function pacific_art_stone_scripts() {
 
 	wp_enqueue_script( 'pacific-art-stone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
+//    wp_enqueue_script( 'pacific-art-stone-fancybox-js', get_template_directory_uri() . '/js/jquery.fancybox.js', array(), '20151215', true );
+
+
 	wp_enqueue_script( 'pacific-art-stone-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -270,17 +273,52 @@ if( function_exists('acf_add_options_page') ) {
     //register custom headers
     add_theme_support( 'custom-header' );
 
-    /*
-     * CUSTOMIZING THE DASHBOARD
-     * */
+    //pulling in custom wp locator template
 
-    //link at bottom of page
-//    function change_admin_footer(){
-//        echo '<span id="footer-note">From your friends at <a href="http://www.kennedyanderson.ca" target="_blank">Kennedy Anderson Group</a>.</span>';
-//    }
-//    add_filter('admin_footer_text', 'change_admin_footer');
+    add_filter( 'wpsl_templates', 'custom_templates' );
 
+    function custom_templates( $templates ) {
 
+        /**
+         * The 'id' is for internal use and must be unique ( since 2.0 ).
+         * The 'name' is used in the template dropdown on the settings page.
+         * The 'path' points to the location of the custom template,
+         * in this case the folder of your active theme.
+         */
+        $templates[] = array (
+            'id'   => 'custom',
+            'name' => 'Custom template',
+            'path' => get_stylesheet_directory() . '/' . 'wpsl-templates/custom.php',
+        );
+
+        return $templates;
+    }
+
+    add_filter( 'wpsl_thumb_size', 'custom_thumb_size' );
+
+    function custom_thumb_size() {
+
+        $size = array( 80, 150 );
+
+        return $size;
+    }
+
+    //remove template caching that stops my page templates from showing
+function wp_42573_fix_template_caching( WP_Screen $current_screen ) {
+    // Only flush the file cache with each request to post list table, edit post screen, or theme editor.
+    if ( ! in_array( $current_screen->base, array( 'post', 'edit', 'theme-editor' ), true ) ) {
+        return;
+    }
+    $theme = wp_get_theme();
+    if ( ! $theme ) {
+        return;
+    }
+    $cache_hash = md5( $theme->get_theme_root() . '/' . $theme->get_stylesheet() );
+    $label = sanitize_key( 'files_' . $cache_hash . '-' . $theme->get( 'Version' ) );
+    $transient_key = substr( $label, 0, 29 ) . md5( $label );
+    delete_transient( $transient_key );
+}
+add_action( 'current_screen', 'wp_42573_fix_template_caching' );
     
 }
 

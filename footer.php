@@ -137,9 +137,9 @@
 </script>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
-
+<!--<script src="js/jquery.fancybox.min.js"></script>-->
+s
 <script>
     var list = document.getElementsByClassName("about-content");
     for (var i = 0; i < list.length; i++) {
