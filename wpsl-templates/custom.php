@@ -1,6 +1,3 @@
-<section class="dealer-map">
-
-</section>
 <?php
 global $wpsl_settings, $wpsl;
 
@@ -51,7 +48,7 @@ $output .= "\t\t\t\t" . '<div class="wpsl-search-btn-wrap"><input id="wpsl-searc
 $output .= "\t\t" . '</form>' . "\r\n";
 $output .= "\t\t" . '</div>' . "\r\n";
 $output .= "\t" . '</div>' . "\r\n";
-
+$output .= '<div class="half">';
 if ( $wpsl_settings['reset_map'] ) {
     $output .= "\t" . '<div class="wpsl-gmap-wrap">' . "\r\n";
     $output .= "\t\t" . '<div id="wpsl-gmap" class="wpsl-gmap-canvas"></div>' . "\r\n";
@@ -60,6 +57,7 @@ if ( $wpsl_settings['reset_map'] ) {
     $output .= "\t" . '<div id="wpsl-gmap" class="wpsl-gmap-canvas"></div>' . "\r\n";
 }
 
+$output .= '</div>';
 $output .= "\t" . '<div id="wpsl-result-list">' . "\r\n";
 $output .= "\t\t" . '<div id="wpsl-stores" '. $autoload_class .'>' . "\r\n";
 $output .= "\t\t\t" . '<ul></ul>' . "\r\n";

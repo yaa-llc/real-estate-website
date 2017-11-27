@@ -22,6 +22,10 @@
   height: 100%;
 }
 
+.home .header-phone a {
+  color:white;
+}
+
 .header-phone {
   font-size: 18px;
   a {
@@ -73,3 +77,32 @@ header:not(.home-slider) {
   opacity:0.7;
 }
 
+@media (max-width: 1200px) {
+  .main-navigation li:not(.sub-menu li) {
+    margin-left: 25px;
+  }
+
+  .header-featured:not(.home-slider), .header-featured {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .branding-navigation-group {
+    flex-direction: column;
+  }
+
+  .site-branding {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .main-navigation {
+    margin-right:auto;
+  }
+}
+
+@media (max-width: 980px) {
+  .main-navigation li {
+    margin-bottom: 15px;
+  }
+}

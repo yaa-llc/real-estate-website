@@ -51,7 +51,7 @@
             </div>
 
             <!-- Spacer Div -->
-            <div class="footer-column">
+            <div class="footer-column spacer">
                <!-- Space -->
            </div>
 
@@ -137,9 +137,43 @@
 </script>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
+<script>
+    $( document ).ready(function() {
 
-<!--<script src="js/jquery.fancybox.min.js"></script>-->
-s
+        var $grid = $('#container').isotope({
+            // options
+        });
+
+// filter items on button click
+
+        $('.filter').change(function () {
+            var selected = [];
+            $('.filter option').filter(':selected').each(function () {
+                if (this.value != "*") {
+                    selected.push(this.value);
+                }
+            });
+            if (selected.length == 0) {
+                selected.push("*");
+            }
+            selected = $(selected.join(''));
+            $container.isotope({
+                filter: selected
+            });
+        });
+// Custom click event - open fancyBox manually
+        $('.fancybox').on('click', function() {
+            var visibleLinks = $('.fancybox:visible');
+
+            $.fancybox.open( visibleLinks, {}, visibleLinks.index( this ) );
+
+            return false;
+        });
+    });
+
+</script>
+<!--<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
 <script>
     var list = document.getElementsByClassName("about-content");
     for (var i = 0; i < list.length; i++) {

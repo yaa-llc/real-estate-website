@@ -27,9 +27,14 @@
 	display: inline-block;
 }
 
+.quick-links:hover {
+	opacity: 0.5;
+}
+
 .quick-links a {
 	@include absolute-center;
 	text-decoration: none;
+	//max-width: 150px;
 	//color: white;
 }
 

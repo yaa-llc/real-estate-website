@@ -12,6 +12,7 @@ footer a {
   display: block;
   text-transform: uppercase;
   text-decoration: none;
+  margin: 5px 0;
 }
 
 footer h4 {
@@ -46,3 +47,38 @@ footer ul li {
   display: inline-block;
 }
 
+@media (max-width: 1200px) {
+  .footer-wrapper {
+    justify-content: center;
+  }
+
+  .spacer {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .footer-wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 660px) {
+  .footer-column {
+    width: 95%;
+  }
+
+  .footer-showroom {
+    order: 5;
+  }
+
+  .footer-showroom h4 {
+    margin-top: 0;
+  }
+}

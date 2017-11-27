@@ -27,3 +27,21 @@
 .collection-cta a:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 1185px) {
+  .flex-stone-collection {
+    justify-content: center;
+  }
+
+  .stone-style-wrapper h4 {
+    text-align: center;
+  }
+
+  .individual-stone-style:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .individual-stone-style:nth-child(3n) {
+    margin-right: 20px;
+  }
+}

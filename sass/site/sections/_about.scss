@@ -4,13 +4,20 @@
 
 .about-image {
   width: 575px;
-  height: 410px;
+  //height: 410px;
 }
 
 .primary-text {
-  padding: 170px 0;
+  padding: 150px 0;
 }
 
 .primary-text:nth-child(odd) {
   background: white;
 }
+
+@media (max-width: 990px) {
+  .primary-text {
+    padding:90px 0;
+  }
+}
+
