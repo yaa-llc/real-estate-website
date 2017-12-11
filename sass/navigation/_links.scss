@@ -1,6 +1,7 @@
 a {
 	color: $color__link;
 	text-decoration: none;
+	transition: color 0.25s ease-in;
 
 	&:visited {
 		//color: $color__link-visited;
@@ -8,7 +9,7 @@ a {
 	&:hover,
 	&:focus,
 	&:active {
-		//color: $color__link-hover;
+		color: $color__link-hover;
 	}
 	&:focus {
 		outline: thin dotted;
@@ -29,10 +30,41 @@ a {
 	padding: 20px 10px;
 	text-align: center;
 	text-decoration: none;
+	display: inline-block;
+	transition: background 0.25s ease-in, border 0.25s linear;
+}
+
+.block-link:hover {
+	background: #908787;
+	border-color: #908787;
+	color: white;
 }
 
 .block-link.featured {
 	color: #908787;
 	border: 1px solid #908787;
-	margin-top: 40px;
+	margin-top: -10px;
+	//margin-bottom: 40px;
+	//color: #908787;
+}
+
+.block-link.featured:hover {
+	color: white;
+}
+
+.stone-nav-wrapper {
+	text-align: center;
+	//max-width: 1200px;
+}
+
+.stone-nav-link {
+	margin-right:10px;
+	padding-right: 8px;
+	border-right: 1px solid #908787;
+}
+
+.stone-nav-link:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
 }

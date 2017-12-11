@@ -77,7 +77,7 @@
 
 .main-navigation li {
 	margin-left: 33px;
-	border-bottom: 1px solid $color__background-body;
+	border-bottom: 1px solid white;
 	//margin-bottom: -1px;
 	transition: border-bottom 0.25s linear;
 }
@@ -90,6 +90,7 @@
 
 .sub-menu {
 	background: rgba(144,135,135,0.8);
+	width: 100%;
 }
 
 //making the brick menu wider
@@ -150,8 +151,11 @@
 
 .home .nav-wrapper {
 	position: absolute;
-	top:0;
+	//top:0;
 	z-index: 10;
+	margin: auto;
+	//position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
 }
 
 .home .main-navigation a {
@@ -197,4 +201,3 @@
 		width: 50%;
 	}
 }
-

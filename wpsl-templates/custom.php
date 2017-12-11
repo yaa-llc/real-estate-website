@@ -4,8 +4,8 @@ global $wpsl_settings, $wpsl;
 $output         = $this->get_custom_css();
 $autoload_class = ( !$wpsl_settings['autoload'] ) ? 'class="wpsl-not-loaded"' : '';
 
-$output .='<section class="dealer-map-wrapper">';
-$output .='<div class="inner-wrapper">';
+//$output .='<section class="dealer-map-wrapper">';
+//$output .='<div class="inner-wrapper">';
 $output .= '<div id="wpsl-wrap" class="wpsl-store-below">' . "\r\n";
 $output .= "\t" . '<div class="wpsl-search wpsl-clearfix ' . $this->get_css_classes() . '">' . "\r\n";
 $output .= "\t\t" . '<div id="wpsl-search-wrap">' . "\r\n";
@@ -48,7 +48,7 @@ $output .= "\t\t\t\t" . '<div class="wpsl-search-btn-wrap"><input id="wpsl-searc
 $output .= "\t\t" . '</form>' . "\r\n";
 $output .= "\t\t" . '</div>' . "\r\n";
 $output .= "\t" . '</div>' . "\r\n";
-$output .= '<div class="half">';
+//$output .= '<div class="half">';
 if ( $wpsl_settings['reset_map'] ) {
     $output .= "\t" . '<div class="wpsl-gmap-wrap">' . "\r\n";
     $output .= "\t\t" . '<div id="wpsl-gmap" class="wpsl-gmap-canvas"></div>' . "\r\n";
@@ -57,7 +57,8 @@ if ( $wpsl_settings['reset_map'] ) {
     $output .= "\t" . '<div id="wpsl-gmap" class="wpsl-gmap-canvas"></div>' . "\r\n";
 }
 
-$output .= '</div>';
+$output .= '</div>';/* end map container from wYSIWG */
+$output .= '</div>';/* end map container from wYSIWG */
 $output .= "\t" . '<div id="wpsl-result-list">' . "\r\n";
 $output .= "\t\t" . '<div id="wpsl-stores" '. $autoload_class .'>' . "\r\n";
 $output .= "\t\t\t" . '<ul></ul>' . "\r\n";
@@ -72,7 +73,7 @@ if ( $wpsl_settings['show_credits'] ) {
 }
 
 $output .= '</div>' . "\r\n";
-$output .= '</div>';
-$output .= '</section>';
+//$output .= '</div>';
+//$output .= '</section>';
 
 return $output;

@@ -16,10 +16,12 @@
   width:50%;
 }
 
-@media (max-width: 1200px) {
-  .content-wrapper {
-    //padding: 0 20px;
-  }
+.third {
+  width: 33.33%;
+}
+
+.third.text {
+  padding-right: 40px;
 }
 
 @media (max-width: 1040px) {
@@ -51,11 +53,21 @@
   .primary-text {
     //padding: 110px 0;
   }
+
+  .feature-wrapper {
+    padding: 90px 0;
+  }
 }
 
 @media (max-width: 800px) {
   .half {
     width: 75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .feature-wrapper {
+    padding: 60px 0;
   }
 }
 

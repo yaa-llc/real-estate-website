@@ -119,7 +119,10 @@
         </div>
 
         <div class="site-info inner-wrapper">
-            Website by: <a href="http://kennedyanderson.ca">Kennedy Anderson Group</a>
+            <ul>
+                <li>&copy; <?php echo date("Y"); ?> Pacific Art Stone</li>
+                <li>Website design by <a href="http://kennedyanderson.ca">Kennedy Anderson Creative Group</a></li>
+            </ul>
         </div><!-- .site-info -->
 
     </footer><!-- #colophon -->
@@ -137,50 +140,38 @@
 </script>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
 <script>
-    $( document ).ready(function() {
+    jQuery('.sub-menu').parent().find('a:first').removeAttr('href').css('cursor','default');
+</script>
 
-        var $grid = $('#container').isotope({
-            // options
-        });
+Tested and Verified Code
 
-// filter items on button click
+<script>
+    jQuery(document).ready(function(){
+// Add smooth scrolling to all links
+        jQuery("a").on('click', function(event) {
 
-        $('.filter').change(function () {
-            var selected = [];
-            $('.filter option').filter(':selected').each(function () {
-                if (this.value != "*") {
-                    selected.push(this.value);
-                }
-            });
-            if (selected.length == 0) {
-                selected.push("*");
-            }
-            selected = $(selected.join(''));
-            $container.isotope({
-                filter: selected
-            });
-        });
-// Custom click event - open fancyBox manually
-        $('.fancybox').on('click', function() {
-            var visibleLinks = $('.fancybox:visible');
+// Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-            $.fancybox.open( visibleLinks, {}, visibleLinks.index( this ) );
+                // Store hash
+                var hash = this.hash;
 
-            return false;
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                jQuery('html, body').animate({
+                    scrollTop: jQuery(hash).offset().top
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
         });
     });
-
 </script>
-<!--<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
-<script>
-    var list = document.getElementsByClassName("about-content");
-    for (var i = 0; i < list.length; i++) {
-        list[i].setAttribute("id", "about-section" + i);
-    }
-</script>
-
 
 </body>
 </html>

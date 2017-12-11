@@ -8,7 +8,7 @@
  */
 
 ?>
-<div class="inner-wrapper">
+<!--<div class="inner-wrapper">-->
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -50,4 +50,4 @@
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->
-</div>
+<!--</div>-->

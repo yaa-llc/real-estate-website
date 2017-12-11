@@ -47,6 +47,18 @@ footer ul li {
   display: inline-block;
 }
 
+.site-info a {
+  text-transform: capitalize;
+}
+
+.site-info li {
+  display: inline-block;
+}
+
+.site-info li:first-child {
+  margin-right: 80px;
+}
+
 @media (max-width: 1200px) {
   .footer-wrapper {
     justify-content: center;

@@ -25,10 +25,17 @@
 	height: 220px;
 	position: relative;
 	display: inline-block;
+	background: #908787;
 }
 
-.quick-links:hover {
-	opacity: 0.5;
+.quick-links:hover:after {
+	content:"\A";
+	width:100%;
+	height:100%;
+	background:rgba(199,189,180,0.5);
+	position:absolute;
+	top:0;
+	left:0;
 }
 
 .quick-links a {
@@ -36,9 +43,35 @@
 	text-decoration: none;
 	//max-width: 150px;
 	//color: white;
+	z-index: 5;
 }
 
 .quick-links:first-child {
 	//margin-left: auto;
 }
 
+@media (max-width:880px) {
+	.quick-links-section {
+		margin-bottom:100px;
+	}
+
+	.quick-links-wrapper {
+		justify-content: space-around;
+	}
+
+	.quick-links {
+		width: 325px;
+		height: auto;
+	}
+}
+
+@media (max-width:700px) {
+	.quick-links-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.quick-links {
+		margin-bottom:30px;
+	}
+}

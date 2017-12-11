@@ -21,7 +21,7 @@ get_header(); ?>
 			?>
 
             <!-- the page title, main content & thumbnail, spec sheet download -->
-            <section class="primary-content">
+            <section class="primary-content primary-text">
                 <?php get_template_part('template-parts/stone-collection/stone-nav'); ?>
             <div class="inner-wrapper">
                 <div class="stone-collection-wrapper content-wrapper">

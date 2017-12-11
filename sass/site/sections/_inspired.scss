@@ -6,9 +6,27 @@
 }
 
 .be-inspired h2, .be-inspired p {
-  width: 565px;
+  max-width: 565px;
 }
 
 .be-inspired p {
   margin-bottom:60px;
+}
+
+@media (max-width: 1200px) {
+  .be-inspired {
+    padding: 240px 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .be-inspired {
+    padding: 90px 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .be-inspired {
+    padding-left: 20px;
+  }
 }

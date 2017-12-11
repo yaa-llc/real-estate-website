@@ -1,7 +1,54 @@
+#wpsl-search-wrap {
+  //float: left;
+  //width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 45px;
+  left: 110px;
+}
+
 .wpsl-search {
   background: none;
 }
 
+#wpsl-result-list {
+  width: 100%;
+}
+
 #wpsl-wrap #wpsl-result-list li {
   border-bottom:none;
+}
+
+#wpsl-wrap {
+  width: auto;
+}
+
+#wpsl-result-list ul {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#wpsl-result-list ul li {
+  margin: 20px 0;
+}
+
+.wpsl-store-below #wpsl-gmap {
+  width: 727px;
+  height: 522px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1185px) {
+  .third {
+    width: 75%;
+    //with: 75%;
+  }
+  .map-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
