@@ -21,11 +21,14 @@
 
 #wpsl-wrap {
   width: auto;
+  margin-left: auto;
 }
 
 #wpsl-result-list ul {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #wpsl-result-list ul li {
@@ -39,7 +42,23 @@
 
 .map-container {
   display: flex;
-  justify-content: center;
+  //justify-content: center;
+  max-width: 1200px;
+  margin:auto;
+}
+
+.wpsl-store-location {
+  //width: 20%;
+}
+
+#wpsl-result-list li {
+  width:20%;
+}
+
+#wpsl-result-list li p {
+  display: flex;
+  flex-direction: column;
+  //width: 20%;
 }
 
 @media (max-width: 1185px) {

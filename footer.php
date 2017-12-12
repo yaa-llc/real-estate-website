@@ -99,10 +99,10 @@
                                 <a href="mailto:<?php the_sub_field( 'email_us' ); ?>">Email Us</a>
                             </li>
                             <li>
-                                <a href="<?php the_sub_field( 'dealer_inquiries' ); ?>">Dealer Inquiries</a>
+                                <a href="mailto:<?php the_sub_field( 'dealer_inquiries' ); ?>">Dealer Inquiries</a>
                             </li>
                             <li>
-                                <a href="<?php the_sub_field( 'returns_and_warranties' ); ?>">Returns + Warranties</a>
+                                <a href="mailto:<?php the_sub_field( 'returns_and_warranties' ); ?>">Returns + Warranties</a>
                             </li>
                         </ul>
 
@@ -143,8 +143,6 @@
 <script>
     jQuery('.sub-menu').parent().find('a:first').removeAttr('href').css('cursor','default');
 </script>
-
-Tested and Verified Code
 
 <script>
     jQuery(document).ready(function(){

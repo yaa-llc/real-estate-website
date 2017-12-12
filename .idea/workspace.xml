@@ -1,35 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/sass/navigation/_menus.scss" description="}" line="202" />
+    <bookmark url="file://$PROJECT_DIR$/sass/navigation/_menus.scss" description="}" line="201" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ac9400-baf8-4e51-ae2e-eb61632e4680" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-inspiration-gallery.php" afterPath="$PROJECT_DIR$/page-inspiration-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-stone-collection.php" afterPath="$PROJECT_DIR$/page-stone-collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/navigation/_links.scss" afterPath="$PROJECT_DIR$/sass/navigation/_links.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/navigation/_menus.scss" afterPath="$PROJECT_DIR$/sass/navigation/_menus.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/footer/_footer.scss" afterPath="$PROJECT_DIR$/sass/site/footer/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" afterPath="$PROJECT_DIR$/sass/site/header/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/primary/_images.scss" afterPath="$PROJECT_DIR$/sass/site/primary/_images.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/secondary/_widgets.scss" afterPath="$PROJECT_DIR$/sass/site/secondary/_widgets.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_about.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_about.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_collections.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_collections.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_dealers.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_dealers.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_featured.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_featured.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/typography/_copy.scss" afterPath="$PROJECT_DIR$/sass/typography/_copy.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" afterPath="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-project.php" afterPath="$PROJECT_DIR$/single-project.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-page.php" afterPath="$PROJECT_DIR$/template-parts/content-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/home/home-slider.php" afterPath="$PROJECT_DIR$/template-parts/home/home-slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/stone-collection/stone-nav.php" afterPath="$PROJECT_DIR$/template-parts/stone-collection/stone-nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wpsl-templates/custom.php" afterPath="$PROJECT_DIR$/wpsl-templates/custom.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,40 +21,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="custom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wpsl-templates/custom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_menus.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="61" column="23" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+            <state relative-caret-position="-2228">
+              <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-slider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/home/home-slider.php">
+      <file leaf-file-name="_dealers.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/site/sections/_dealers.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="346">
+              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/navigation.js">
+      <file leaf-file-name="page-dealer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-dealer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <file leaf-file-name="distributor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/dealer/distributor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1563">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -100,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="159" column="37" lean-forward="true" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+            <state relative-caret-position="-305">
+              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +104,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="7">
               <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding />
             </state>
@@ -123,18 +114,8 @@
       <file leaf-file-name="stone-nav.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/stone-nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="43" column="83" lean-forward="true" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_links.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/navigation/_links.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            <state relative-caret-position="373">
+              <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -152,7 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spa</find>
       <find>reload</find>
       <find>rosy</find>
       <find>pacific-art-stone-styl</find>
@@ -182,6 +162,7 @@
       <find>site</find>
       <find>kenned</find>
       <find>site-info</find>
+      <find>email</find>
     </findStrings>
     <replaceStrings>
       <replace>$projectQuery</replace>
@@ -199,7 +180,6 @@
         <option value="$PROJECT_DIR$/sass/mixins/_mixins-master.scss" />
         <option value="$PROJECT_DIR$/template-parts/home/instagram.php" />
         <option value="/Applications/XAMPP/xamppfiles/etc/php.ini" />
-        <option value="$PROJECT_DIR$/page-dealer.php" />
         <option value="$PROJECT_DIR$/template-parts/home/be-inspired.php" />
         <option value="$PROJECT_DIR$/template-parts/stone-collection/spec-sheet.php" />
         <option value="$PROJECT_DIR$/template-parts/home/stone-collection.php" />
@@ -226,9 +206,7 @@
         <option value="$PROJECT_DIR$/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
         <option value="$PROJECT_DIR$/sass/site/sections/_inspired.scss" />
-        <option value="$PROJECT_DIR$/wpsl-templates/custom.php" />
         <option value="$PROJECT_DIR$/sass/site/sections/_featured.scss" />
-        <option value="$PROJECT_DIR$/sass/site/sections/_dealers.scss" />
         <option value="$PROJECT_DIR$/page-stone-collection.php" />
         <option value="$PROJECT_DIR$/sass/site/sections/_collections.scss" />
         <option value="$PROJECT_DIR$/sass/typography/_copy.scss" />
@@ -240,10 +218,13 @@
         <option value="$PROJECT_DIR$/template-parts/home/home-slider.php" />
         <option value="$PROJECT_DIR$/template-parts/stone-collection/stone-styles.php" />
         <option value="$PROJECT_DIR$/sass/navigation/_links.scss" />
-        <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
         <option value="$PROJECT_DIR$/js/navigation.js" />
         <option value="$PROJECT_DIR$/template-parts/stone-collection/stone-nav.php" />
+        <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/page-dealer.php" />
+        <option value="$PROJECT_DIR$/wpsl-templates/custom.php" />
+        <option value="$PROJECT_DIR$/sass/site/sections/_dealers.scss" />
       </list>
     </option>
   </component>
@@ -299,6 +280,11 @@
               <item name="pacific-art-stone" type="b2602c69:ProjectViewProjectNode" />
               <item name="pacific-art-stone" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pacific-art-stone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pacific-art-stone" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wpsl-templates" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -392,12 +378,12 @@
       <workItem from="1512403094235" duration="378000" />
       <workItem from="1512754594850" duration="2974000" />
       <workItem from="1512844361549" duration="357000" />
-      <workItem from="1513008737710" duration="7422000" />
+      <workItem from="1513008737710" duration="10378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194219000" />
+    <option name="totallyTimeSpent" value="197175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="23" width="1411" height="870" extended-state="0" />
@@ -437,13 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../plugins/wp-store-locator/frontend/templates/store-listings-below.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -460,13 +439,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grid-test.html" />
     <entry file="file://$USER_HOME$/Desktop/grid-test.html" />
-    <entry file="file://$PROJECT_DIR$/page-dealer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/slick/slick.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -614,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/sections/_dealers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -646,14 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
           <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wpsl-templates/custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -733,14 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="61" column="23" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/home/home-slider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -783,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="7">
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding />
         </state>
@@ -791,16 +740,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/stone-nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="43" column="83" lean-forward="true" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+        <state relative-caret-position="373">
+          <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="159" column="37" lean-forward="true" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+        <state relative-caret-position="-305">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/navigation/_menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2228">
+          <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-dealer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/dealer/distributor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1563">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wpsl-templates/custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/sections/_dealers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding />
         </state>
       </provider>
