@@ -84,14 +84,12 @@ header:not(.home-slider) {
 
 .slider-text-wrapper {
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 0;
   bottom: 0;
-  left: 0;
-  //max-width: 1200px;
-  //margin: 0 auto;
-  //color: blue;
-  //text-align: left;
+  //left: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .slider-headline {
