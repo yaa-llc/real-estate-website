@@ -195,67 +195,16 @@ if( function_exists('acf_add_options_page') ) {
         'parent_slug' => 'theme-general-settings',
     ));
 
-
-// Google Maps
-//    function my_acf_init()
-//    {
+//// remove automatic image link (because of the stone collection page)
 //
-//        acf_update_setting('google_api_key', 'AIzaSyDNHTS0hn1qceMzMU-FSm9u4_d0ftOLlsI');
+//    function rkv_imagelink_setup() {
+//        $image_set = get_option( 'image_default_link_type' );
+//
+//        if ($image_set !== 'none') {
+//            update_option('image_default_link_type', 'none');
+//        }
 //    }
-//
-//    add_action('acf/init', 'my_acf_init');
-//
-//    add_filter('acf/settings/google_api_key', function () {
-//        return 'AIzaSyDNHTS0hn1qceMzMU-FSm9u4_d0ftOLlsI';
-//    });
-//
-//
-//    function my_theme_add_scripts()
-//    {
-//        wp_enqueue_script('google-map', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB1-c8-tn_YTg6vzyjqF-_NlHhRetOur_4', array(), '3', true);
-//        wp_enqueue_script('google-map-init', get_template_directory_uri() . '/js/google-maps.js', array('google-map', 'jquery'), '0.1', true);
-//    }
-//
-//    add_action('wp_enqueue_scripts', 'my_theme_add_scripts');
-//
-//    function my_acf_google_map_api($api)
-//    {
-//
-//        $api['key'] = 'AIzaSyB1-c8-tn_YTg6vzyjqF-_NlHhRetOur_4';
-//
-//        return $api;
-//
-//    }
-//
-//    add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
-//
-//    function my_theme_add_scripts() {
-//        wp_enqueue_script( 'google-map', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB1-c8-tn_YTg6vzyjqF-_NlHhRetOur_4', array(), '3', true );
-//        wp_enqueue_script( 'google-map-init', get_template_directory_uri() . '/js/google-maps.js', array('google-map', 'jquery'), '0.1', true );
-//    }
-//
-//    add_action( 'wp_enqueue_scripts', 'my_theme_add_scripts' );
-//
-//    function my_acf_google_map_api( $api ){
-//
-//        $api['key'] = 'AIzaSyB1-c8-tn_YTg6vzyjqF-_NlHhRetOur_4';
-//
-//        return $api;
-//
-//    }
-//
-//    add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
-
-// remove automatic image link (because of the stone collection page)
-
-    function rkv_imagelink_setup() {
-        $image_set = get_option( 'image_default_link_type' );
-
-        if ($image_set !== 'none') {
-            update_option('image_default_link_type', 'none');
-        }
-    }
-    add_action('admin_init', 'rkv_imagelink_setup', 10);
+//    add_action('admin_init', 'rkv_imagelink_setup', 10);
 
     /* dump() - makes for easy debugging. <?php dump($post); ?> */
     function dump($obj) {
@@ -323,4 +272,16 @@ function wp_42573_fix_template_caching( WP_Screen $current_screen ) {
 add_action( 'current_screen', 'wp_42573_fix_template_caching' );
     
 }
+
+//customize the grid portfolio with acf
+function wpupg_acf( $output, $post, $block ) {
+    if ( 'acf_field' === $block->key ) {
+        $acf_field = get_field( $block->key, $post->ID );
+        $output = $acf_field['lat']; // Use any part of the ACF field you need
+    }
+    return $output;
+}
+add_filter( 'wpupg_output_grid_block_custom-field', 'wpupg_acf', 10, 3 );
+
+
 

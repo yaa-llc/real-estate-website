@@ -8,6 +8,13 @@
   //height:398px;
 }
 
+@media (max-width: 990px) {
+  .featured-image-wrapper {
+    align-self: center;
+    margin-top: 50px
+  }
+}
+
 @media (max-width: 600px) {
   .about-image, .stone-collection-image-wrapper {
     width: inherit;

@@ -84,14 +84,21 @@ header:not(.home-slider) {
 
 .slider-text-wrapper {
   position: absolute;
-  top: 50%;
-  right: 0;
-  bottom: 0;
+  //top: 50%;
+  //right: 0;
+  //bottom: 0;
+  ////left: 0;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
+  //width: 1200px;
   //left: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
 }
 
+.text-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .slider-headline {
   //max-width: 1200px;
   //margin: 0 auto;
@@ -119,6 +126,10 @@ header:not(.home-slider) {
 
   .main-navigation {
     margin-right:auto;
+  }
+
+  .text-container {
+    text-align: center;
   }
 }
 
