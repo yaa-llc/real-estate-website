@@ -34,7 +34,7 @@ foreach ($items as $item) {
     $item_link['data-rel'] = $item->getData('browse-lightbox-url') ? "" : ($item->getData('sep-gal-ids') ? "nimblebox[nimble_portfolio_gal_$item->ID]" : 'nimblebox[nimble_portfolio_gal_pro]');
     $item_link = apply_filters('nimble_portfolio_lightbox_link_atts', $item_link, $item, $this);
     ?>
-    
+
     <div <?php echo NimblePortfolioPlugin::phpvar2htmlatt($item_atts); ?>>
         <?php if ($title_position == 'before') { ?>
             <div class="title"><?php echo $item->getTitle(); ?></div>    
@@ -77,3 +77,4 @@ foreach ($items as $item) {
     <?php
 }
 ?>
+

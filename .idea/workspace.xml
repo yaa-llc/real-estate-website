@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36ac9400-baf8-4e51-ae2e-eb61632e4680" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" afterPath="$PROJECT_DIR$/sass/site/header/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/primary/_images.scss" afterPath="$PROJECT_DIR$/sass/site/primary/_images.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_dealers.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_dealers.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/home/home-slider.php" afterPath="$PROJECT_DIR$/template-parts/home/home-slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/items.php" afterPath="$PROJECT_DIR$/nimble-portfolio/skins/default/items.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,8 +90,8 @@
       <file leaf-file-name="items.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nimble-portfolio/skins/default/items.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="607">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rosy</find>
       <find>pacific-art-stone-styl</find>
       <find>.be-inspir</find>
       <find>featured</find>
@@ -166,6 +158,7 @@
       <find>site-info</find>
       <find>email</find>
       <find>soc</find>
+      <find>details</find>
     </findStrings>
     <replaceStrings>
       <replace>$projectQuery</replace>
@@ -249,7 +242,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1411" />
     <option name="height" value="870" />
@@ -402,15 +395,15 @@
       <workItem from="1512844361549" duration="357000" />
       <workItem from="1513008737710" duration="15898000" />
       <workItem from="1513264462251" duration="3232000" />
-      <workItem from="1513276129130" duration="49000" />
+      <workItem from="1513276129130" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205976000" />
+    <option name="totallyTimeSpent" value="206977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="23" width="1411" height="870" extended-state="0" />
+    <frame x="4" y="23" width="1411" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -808,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nimble-portfolio/skins/default/items.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="607">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
