@@ -21,22 +21,20 @@ get_header(); ?>
 			?>
 
             <!-- the page title, main content & thumbnail, spec sheet download -->
-            <section class="primary-content primary-text">
-                <?php get_template_part('template-parts/stone-collection/stone-nav'); ?>
-            <div class="inner-wrapper">
-                <div class="stone-collection-wrapper content-wrapper">
-                    <div class="half text">
-                        <?php the_content(); ?>
-                    </div>
+            <section class="primary-content stone-content">
+                <?//php get_template_part('template-parts/stone-collection/stone-nav'); ?>
+                <div class="inner-wrapper">
+                    <div class="stone-collection-wrapper content-wrapper">
+                        <div class="half text">
+                            <?php the_content(); ?>
+                        </div>
 
-                    <div class="half stone-collection-image-wrapper">
-                        <?php the_post_thumbnail(); ?>
-                    </div>
+                        <div class="half stone-collection-image-wrapper">
+                            <?php the_post_thumbnail(); ?>
+                        </div>
 
+                    </div>
                 </div>
-            </div>
-
-
             </section>
 
 

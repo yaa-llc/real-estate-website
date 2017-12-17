@@ -82,17 +82,14 @@ header:not(.home-slider) {
   transition: height 0.2s;
 }
 
+.flickity-page-dots {
+  display: none;
+}
+
 .slider-text-wrapper {
   position: absolute;
-  //top: 50%;
-  //right: 0;
-  //bottom: 0;
-  ////left: 0;
-  //left: 50%;
-  //transform: translate(-50%, -50%);
-  //width: 1200px;
-  //left: 0;
-  top: 40%;
+  top: 33%;
+  z-index: 25;
 }
 
 .text-container {

@@ -24,7 +24,7 @@ foreach( $terms as $term ) {
  */?>
 
 <div class="stone-nav-wrapper">
-    <?php
+<?php
     // your taxonomy name
     $tax = 'style_of_stone';
 
@@ -47,6 +47,7 @@ foreach( $terms as $term ) {
             // display name
             echo '' . $term->name .'';
     }
-    ?>
+?>
+
 </div>
 

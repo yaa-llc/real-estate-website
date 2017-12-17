@@ -13,6 +13,10 @@
   margin-bottom:60px;
 }
 
+.pp_default .pp_expand {
+  display: none!important;
+}
+
 @media (max-width: 1200px) {
   .be-inspired {
     padding: 240px 0;
