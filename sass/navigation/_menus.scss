@@ -75,6 +75,10 @@
 	}
 }
 
+.main-navigation a:hover {
+	color: #908787;
+}
+
 .main-navigation li {
 	margin-left: 33px;
 	border-bottom: 1px solid transparent;
@@ -175,7 +179,9 @@
 	z-index: 1;
 	margin: auto;
 	//position: absolute;
-	top: 0; left: 0; right: 0;
+	top: 0;
+	right: 0;
+	left: 0;
 }
 
 .home .main-navigation a {

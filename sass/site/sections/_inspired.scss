@@ -13,8 +13,29 @@
   margin-bottom:60px;
 }
 
+.nimble-portfolio {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+//override pretty photo defaults
+
 .pp_default .pp_expand {
   display: none!important;
+}
+
+.pp_overlay {
+  opacity: 1!important;
+}
+
+.-skin-default .-items .-item .itembox {
+  box-shadow: none!important;
+  border: none!important;
+}
+
+.-skin-default .-items .-item .itembox .-mask {
+  background: #F2F2F2!important;
+  opacity: 0.6!important;
 }
 
 @media (max-width: 1200px) {

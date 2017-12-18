@@ -1,84 +1,112 @@
-#wpsl-search-wrap {
-  //float: left;
-  //width: 100%;
-  position: absolute;
-  z-index: 2;
-  top: 45px;
-  left: 110px;
-}
-
-.wpsl-search {
-  background: none;
-}
-
-#wpsl-result-list {
-  width: 100%;
-}
-
-#wpsl-wrap #wpsl-result-list li {
-  border-bottom:none;
-}
-
-#wpsl-wrap {
-  width: auto;
-  margin-left: auto;
-}
-
-#wpsl-result-list ul {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#wpsl-result-list ul li {
-  margin: 20px 0;
-}
-
-.wpsl-store-below #wpsl-gmap {
-  width: 727px;
-  height: 522px;
-}
-
-.map-container {
-  display: flex;
-  //justify-content: center;
-  max-width: 1200px;
-  margin:auto;
-}
-
-.wpsl-store-location {
-  //width: 20%;
-}
-
-#wpsl-result-list li {
-  width:20%;
-}
-
-#wpsl-result-list li p {
-  display: flex;
-  flex-direction: column;
-  //width: 20%;
-}
-
-@media (max-width: 1185px) {
-  .third {
-    width: 75%;
-    //with: 75%;
-  }
-  .map-container {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-//temp change for grouping maps
-//.wpsl-search,
-//#wpsl-gmap {
-//  display: none !important;
+//#wpsl-search-wrap {
+//  //float: left;
+//  //width: 100%;
+//  position: absolute;
+//  z-index: 2;
+//  top: 45px;
+//  left: 110px;
+//}
+//
+//.wpsl-search {
+//  background: none;
 //}
 //
 //#wpsl-result-list {
 //  width: 100%;
-//  margin: 0;
 //}
+//
+//#wpsl-wrap #wpsl-result-list li {
+//  border-bottom:none;
+//}
+//
+//#wpsl-wrap {
+//  width: auto;
+//  margin-left: auto;
+//}
+//
+//#wpsl-result-list ul {
+//  max-width: 1200px;
+//  margin: 0 auto;
+//  display: flex;
+//  flex-wrap: wrap;
+//}
+//
+//#wpsl-result-list ul li {
+//  margin: 20px 0;
+//}
+//
+//.wpsl-store-below #wpsl-gmap {
+//  width: 727px;
+//  height: 522px;
+//}
+//
+//.map-container {
+//  display: flex;
+//  //justify-content: center;
+//  max-width: 1200px;
+//  margin:auto;
+//}
+//
+//.wpsl-store-location {
+//  //width: 20%;
+//}
+//
+//#wpsl-result-list li {
+//  width:20%;
+//}
+//
+//#wpsl-result-list li p {
+//  display: flex;
+//  flex-direction: column;
+//  //width: 20%;
+//}
+//
+//@media (max-width: 1185px) {
+//  .third {
+//    width: 75%;
+//    //with: 75%;
+//  }
+//  .map-container {
+//    flex-direction: column;
+//    align-items: center;
+//  }
+//}
+//
+////temp change for grouping maps
+////.wpsl-search,
+////#wpsl-gmap {
+////  display: none !important;
+////}
+////
+////#wpsl-result-list {
+////  width: 100%;
+////  margin: 0;
+////}
+
+.pas_locatoroid_map {
+  position: relative;
+}
+
+#hclc_search_form, #hclc_map {
+  width: 727px!important;
+}
+
+#hclc_map {
+  height: 522px!important;
+}
+
+.hc-col-8 {
+  width:80%!important;
+}
+
+.hc-col-4 {
+  width:15%!important;
+}
+
+.lpr-location-featured::before {
+  content: "Master Distributor";
+  color: #908787;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: $font__weight-bold;
+}

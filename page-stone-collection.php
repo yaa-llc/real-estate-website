@@ -25,6 +25,9 @@ get_header(); ?>
                 <?//php get_template_part('template-parts/stone-collection/stone-nav'); ?>
                 <div class="inner-wrapper">
                     <div class="stone-collection-wrapper content-wrapper">
+
+
+
                         <div class="half text">
                             <?php the_content(); ?>
                         </div>
@@ -36,7 +39,6 @@ get_header(); ?>
                     </div>
                 </div>
             </section>
-
 
             <?php if ( have_rows( 'stone_collection_galleries' ) ): ?>
                 <?php while ( have_rows( 'stone_collection_galleries' ) ) : the_row(); ?>
