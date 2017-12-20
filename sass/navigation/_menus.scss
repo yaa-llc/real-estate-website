@@ -72,7 +72,16 @@
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
+		COLOR: #908787;
 	}
+}
+
+.sub-menu .current_page_item a{
+	color: white;
+}
+
+.sub-menu .current_page_item a:hover, .main-navigation .sub-menu li a {
+	color: white;
 }
 
 .main-navigation a:hover {
@@ -185,6 +194,14 @@
 }
 
 .home .main-navigation a {
+	color: white;
+}
+
+.home .main-navigation a:hover {
+	color: #908787;
+}
+
+.home .main-navigation .sub-menu a:hover {
 	color: white;
 }
 

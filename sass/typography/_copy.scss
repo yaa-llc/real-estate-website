@@ -57,25 +57,14 @@ big {
 	font-weight: $font__weight-light;
 	font-size: 28px;
 	color: white;
-	margin-top:-10px;
+	margin-top: -10px;
 }
 
-.p2 {
-	//font-weight: $font__weight-regular;
+.intro-text-content P {
+	text-align: center;
 	font-size: 28px;
 	margin-bottom: 20px;
 	margin-top: 0;
-}
-
-.p3 {
-	font-size: 18px;
-	margin:0;
-	//border: 1px solid red;
-
-}
-
-.intro-text-content {
-	text-align: center;
 }
 
 .feature-wrapper p {

@@ -4,7 +4,7 @@
             <?php while ( have_rows( 'quick_link' ) ) : the_row(); ?>
                 <?php $download_a_brochure = get_sub_field( 'download_a_brochure' ); ?>
                 <?php if ( $download_a_brochure ) { ?>
-                    <?php $brochure_image = wp_get_attachment_image('389', 'full'); ?>
+                    <?//php $brochure_image = wp_get_attachment_image('389', 'full'); ?>
 
                     <div class="quick-links">
                         <?php echo $brochure_image; ?>

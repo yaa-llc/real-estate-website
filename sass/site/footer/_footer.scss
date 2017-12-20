@@ -19,6 +19,10 @@ footer h4 {
   margin: 40px 0 20px;
 }
 
+footer h4.social-follow {
+  margin-bottom: 5px;
+}
+
 footer ul {
   margin-left:0;
   padding-left:0;
@@ -26,6 +30,17 @@ footer ul {
 
 footer ul li {
   list-style-type: none;
+}
+
+.fa {
+  color: white;
+  font-size: 35px;
+  margin-right: 25px;
+  transition: opacity 0.5s ease;
+}
+
+.fa:hover {
+  opacity: 0.6;
 }
 
 .footer-wrapper {

@@ -46,8 +46,6 @@ if ( ! function_exists( 'pacific_art_stone_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'pacific-art-stone' ),
-            'collection-menu' => __('Collection Menu'),
-            'social-media-menu' => __('Social Media Menu')
 		) );
 
 		/*
@@ -123,10 +121,6 @@ function pacific_art_stone_scripts() {
 	wp_enqueue_style( 'pacific-art-stone-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'pacific-art-stone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-    //wp_enqueue_script( 'pacific-art-stone-fancybox-js', get_template_directory_uri() . '/js/jquery.fancybox.js', array(), '20151215', true );
-
-    //wp_enqueue_script( 'pacific-art-stone-isotope-js', 'https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js', array(), '20151215', true );
 
 
 	wp_enqueue_script( 'pacific-art-stone-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -285,5 +279,6 @@ function wpupg_acf( $output, $post, $block ) {
 add_filter( 'wpupg_output_grid_block_custom-field', 'wpupg_acf', 10, 3 );
 
 
-
+//enqueue font awesome
+wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 

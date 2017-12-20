@@ -1,0 +1,38 @@
+@media print {
+  body {
+    background:white; color:black; margin:0;
+  }
+
+  .stone-content, .collection-cta, #colophon, .nav-wrapper {
+    display: none;
+  }
+
+  header:not(.home-slider) {
+    height: 50px;
+  }
+
+  .content-wrapper:first-child {
+    margin-top: 30px;
+  }
+
+  .content-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    page-break-after: left;
+    //align-content: center;
+    margin: auto;
+  }
+
+  .individual-stone-style {
+    margin-right: 0!important;
+    width: 200px;
+  }
+
+  h4 {
+    margin: 10px 0;
+  }
+
+  .stone-style-wrapper + h4 {
+    margin-bottom: 50px;
+  }
+}

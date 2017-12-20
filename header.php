@@ -25,58 +25,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pacific-art-stone' ); ?></a>
-<?/*php
-	<header id="masthead" class="site-header">
 
-        <!-- Phone number and featured on houzz -->
-
-        <div class="header-featured">
-            <div class="header-phone">
-                <a href="tel:<?php the_field( 'telephone_number', 'option' ); ?>"><?php the_field( 'telephone_number', 'option' ); ?></a>
-
-            </div>
-
-            <div class="houzz-button-wrapper">
-                <?php if ( have_rows( 'featured_on_houzz_button', 'option' ) ) : ?>
-                    <?php while ( have_rows( 'featured_on_houzz_button', 'option' ) ) : the_row(); ?>
-                        <?php $button_image = get_sub_field( 'button_image' ); ?>
-                        <?php if ( $button_image ) { ?>
-                            <a href="<?php the_sub_field( 'houzz_url' ); ?>"><?php $button_image = get_sub_field( 'button_image' ); ?>
-                                <?php if ( $button_image ) { ?>
-                                    <img src="<?php echo $button_image['url']; ?>" alt="<?php echo $button_image['alt']; ?>" />
-                                <?php } ?></a>
-                        <?php } ?>
-
-                    <?php endwhile; ?>
-                <?php endif; ?>
-            </div>
-        </div>
-
-        <div class="site-branding">
-            <?php
-            the_custom_logo();
-            if ( is_front_page() && is_home() ) : ?>
-                <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-                <?php
-            endif; ?>
-        </div><!-- .site-branding -->
-
-        <nav id="site-navigation" class="main-navigation">
-            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'pacific-art-stone' ); ?></button>
-            <?php
-            wp_nav_menu( array(
-                'theme_location' => 'menu-1',
-                'menu_id'        => 'primary-menu',
-            ) );
-            ?>
-        </nav><!-- #site-navigation -->
-
-
-
-
-
-	</header><!-- #masthead -->
-*/?>
 
     <div class="nav-wrapper">
         <!-- Phone number and featured on houzz -->

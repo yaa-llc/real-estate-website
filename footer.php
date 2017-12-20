@@ -74,8 +74,15 @@
 
             <!-- Social -->
 
-                <h4>Follow Us</h4>
-                <?php the_field( 'social_media_icon_for_menu', 'option' ); ?>
+                <h4 class="social-follow">Follow Us</h4>
+                <?php if ( have_rows( 'social_media_accounts', 'option' ) ) : ?>
+                    <?php while ( have_rows( 'social_media_accounts', 'option' ) ) : the_row(); ?>
+                        <a href="<?php the_sub_field('social_media_link');?>"><?php the_sub_field( 'social_media_icon' ); ?></a>
+
+                    <?php endwhile; ?>
+                <?php else : ?>
+                    <?php // no rows found ?>
+                <?php endif; ?>
             </div>
 
             <!-- Contact Us -->
@@ -135,9 +142,7 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
 <script>
     jQuery('.sub-menu').parent().find('a:first').removeAttr('href').css('cursor','default');
-</script>
 
-<script>
     jQuery(document).ready(function(){
 // Add smooth scrolling to all links
         jQuery("a").on('click', function(event) {
@@ -155,9 +160,9 @@
                 jQuery('html, body').animate({
                     scrollTop: jQuery(hash).offset().top
                 }, 800, function(){
-
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
+
                 });
             } // End if
         });
