@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ac9400-baf8-4e51-ae2e-eb61632e4680" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-stone-collection.php" afterPath="$PROJECT_DIR$/page-stone-collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/secondary/_widgets.scss" afterPath="$PROJECT_DIR$/sass/site/secondary/_widgets.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_about.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_about.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" afterPath="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/home/quick-links.php" afterPath="$PROJECT_DIR$/template-parts/home/quick-links.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/stone-collection/spec-sheet.php" afterPath="$PROJECT_DIR$/template-parts/stone-collection/spec-sheet.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-stone-collection.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-stone-collection.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="34" column="109" lean-forward="false" selection-start-line="34" selection-start-column="109" selection-end-line="34" selection-end-column="109" />
+            <state relative-caret-position="592">
+              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -45,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec-sheet.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spec-sheet.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/spec-sheet.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -232,8 +223,8 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
         <option value="$PROJECT_DIR$/sass/site/sections/_about.scss" />
-        <option value="$PROJECT_DIR$/page-stone-collection.php" />
         <option value="$PROJECT_DIR$/template-parts/stone-collection/spec-sheet.php" />
+        <option value="$PROJECT_DIR$/page-stone-collection.php" />
       </list>
     </option>
   </component>
@@ -441,12 +432,12 @@
       <workItem from="1513276129130" duration="1050000" />
       <workItem from="1513278816658" duration="7211000" />
       <workItem from="1513600391095" duration="9163000" />
-      <workItem from="1513771277972" duration="21333000" />
+      <workItem from="1513771277972" duration="21544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244684000" />
+    <option name="totallyTimeSpent" value="244895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1411" height="870" extended-state="0" />
@@ -840,14 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="34" column="109" lean-forward="false" selection-start-line="34" selection-start-column="109" selection-end-line="34" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/brochure.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -860,6 +843,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding />
         </state>
       </provider>
