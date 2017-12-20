@@ -1,4 +1,5 @@
-<section class="primary-text" id="about-section">
+
+<section class="primary-text" id="<?php the_sub_field( 'name_of_section' ); ?>">
     <div class="inner-wrapper about">
         <div class="content-wrapper">
             <?php if ( get_row_layout() == 'text_and_image_section' ) : ?>

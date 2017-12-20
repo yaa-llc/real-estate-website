@@ -46,7 +46,8 @@ if ( ! function_exists( 'pacific_art_stone_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'pacific-art-stone' ),
-            'collection-menu' => __('Collection Menu')
+            'collection-menu' => __('Collection Menu'),
+            'social-media-menu' => __('Social Media Menu')
 		) );
 
 		/*
@@ -282,6 +283,7 @@ function wpupg_acf( $output, $post, $block ) {
     return $output;
 }
 add_filter( 'wpupg_output_grid_block_custom-field', 'wpupg_acf', 10, 3 );
+
 
 
 

@@ -75,14 +75,7 @@
             <!-- Social -->
 
                 <h4>Follow Us</h4>
-                <?php if ( have_rows( 'social_media_accounts', 'option' ) ) : ?>
-                    <?php while ( have_rows( 'social_media_accounts', 'option' ) ) : the_row(); ?>
-                        <a href="<?php the_sub_field( 'social_media_link' ); ?>"><?php the_sub_field( 'social_media_icon' ); ?></a>
-
-                    <?php endwhile; ?>
-                <?php else : ?>
-                    <?php // no rows found ?>
-                <?php endif; ?>
+                <?php the_field( 'social_media_icon_for_menu', 'option' ); ?>
             </div>
 
             <!-- Contact Us -->
@@ -168,6 +161,7 @@
                 });
             } // End if
         });
+
     });
 </script>
 
