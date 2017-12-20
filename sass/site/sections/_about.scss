@@ -11,15 +11,24 @@
   padding: 150px 0;
 }
 
-.primary-text:first-child {
-  background: white;
+.primary-text ~ .primary-text {
+  background: #F1F1F1;
 }
 
 .in-page-link-wrapper {
   text-align: center;
   //display: inline-block;
+  margin-top: 30px;
 }
 
+.in-page-link:after {
+  content: "|";
+  padding-left: 5px;
+}
+
+.in-page-link:last-child:after {
+  content: none;
+}
 
 @media (max-width: 990px) {
   .primary-text {

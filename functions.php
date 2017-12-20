@@ -282,3 +282,4 @@ add_filter( 'wpupg_output_grid_block_custom-field', 'wpupg_acf', 10, 3 );
 //enqueue font awesome
 wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
+

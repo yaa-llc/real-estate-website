@@ -21,28 +21,27 @@ get_header(); ?>
 			?>
 
             <!-- the page title, main content & thumbnail, spec sheet download -->
-            <section class="primary-content stone-content">
-                <?//php get_template_part('template-parts/stone-collection/stone-nav'); ?>
-                <div class="inner-wrapper">
-                    <div class="stone-collection-wrapper content-wrapper">
 
-
-
-                        <div class="half text">
-                            <?php the_content(); ?>
-                        </div>
-
-                        <div class="half stone-collection-image-wrapper">
-                            <?php the_post_thumbnail(); ?>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
 
             <?php if ( have_rows( 'stone_collection_galleries' ) ): ?>
                 <?php while ( have_rows( 'stone_collection_galleries' ) ) : the_row(); ?>
 
+                    <section class="primary-content stone-content">
+                        <?//php get_template_part('template-parts/stone-collection/stone-nav'); ?>
+                        <div class="inner-wrapper">
+                            <div class="stone-collection-wrapper content-wrapper">
+                                <div class="half text">
+                                    <?php the_content(); ?>
+                                    <?php get_template_part('template-parts/stone-collection/spec-sheet'); ?>
+                                </div>
+
+                                <div class="half stone-collection-image-wrapper">
+                                    <?php the_post_thumbnail(); ?>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
                     <!-- Each group of styled stone -->
                     <?php if ( get_row_layout() == 'stone_styles' ) : ?>
                        <?php get_template_part('template-parts/stone-collection/stone-styles'); ?>

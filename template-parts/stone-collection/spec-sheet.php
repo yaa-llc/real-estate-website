@@ -1,4 +1,9 @@
+<?php //$stone_collection_spec_sheet = get_field( 'stone_collection_spec_sheet' ); ?>
+<?php //if ( $stone_collection_spec_sheet ) { ?>
+<!--    <a href="--><?php //echo $stone_collection_spec_sheet['url']; ?><!--" class="featured block-link">--><?php //echo $stone_collection_spec_sheet['filename']; ?><!--</a>-->
+<?php //} ?>
+
 <?php $stone_collection_spec_sheet = get_field( 'stone_collection_spec_sheet' ); ?>
 <?php if ( $stone_collection_spec_sheet ) { ?>
-    <a href="<?php echo $stone_collection_spec_sheet['url']; ?>"><?php echo $stone_collection_spec_sheet['filename']; ?></a>
+    <a href="<?php echo $stone_collection_spec_sheet['url']; ?>" class="block-link featured">Download Brochure</a>
 <?php } ?>
