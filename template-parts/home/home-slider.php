@@ -1,5 +1,5 @@
 <header class="home-slider">
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "adaptiveHeight": true, "imagesLoaded": true }'>
+    <div class="main-carousel">
         <?php if ( have_rows( 'slider_image_and_text' ) ) : ?>
             <?php while ( have_rows( 'slider_image_and_text' ) ) : the_row(); ?>
                 <?php $slider_images = get_sub_field( 'slider_image' ); ?>

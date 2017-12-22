@@ -47,7 +47,6 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
 	<footer class="entry-footer">
 		<?php pacific_art_stone_entry_footer(); ?>
 	</footer><!-- .entry-footer -->

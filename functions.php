@@ -122,8 +122,12 @@ function pacific_art_stone_scripts() {
 
 	wp_enqueue_script( 'pacific-art-stone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
+    wp_enqueue_script( 'pacific-art-stone-skip-link-focus-fix', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.js' );
+
+    wp_enqueue_script( 'main-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20151215', true );
 
 	wp_enqueue_script( 'pacific-art-stone-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -282,4 +286,18 @@ add_filter( 'wpupg_output_grid_block_custom-field', 'wpupg_acf', 10, 3 );
 //enqueue font awesome
 wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
-
+//making dropdowns
+//add_filter( 'wpsl_dropdown_category_args', 'custom_dropdown_category_args' );
+//
+//function custom_dropdown_category_args( $args ) {
+//
+//    if ( is_page( 10 ) ) { //this is the page you want the custom dropdown to appear on.
+//        $args['child_of'] = 53; //The ID of the parent category you want the sub categories to show in the dropdown.
+//  } else if ( is_page( 10 ) ) { //another page you want a different custom dropdown to appear on.
+//        $args['child_of'] = 44; //A different of the parent category you want the sub categories to show in the dropdown.
+//    } else if ( is_page( 10) ) { //another page you want a different custom dropdown to appear on.
+//        $args['child_of'] = 33; //A different ID of the parent category you want the sub categories to show in the dropdown.
+//	}
+//
+//    return $args;
+//}

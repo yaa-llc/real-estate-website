@@ -5,5 +5,5 @@
 
 <?php $stone_collection_spec_sheet = get_field( 'stone_collection_spec_sheet' ); ?>
 <?php if ( $stone_collection_spec_sheet ) { ?>
-    <a href="<?php echo $stone_collection_spec_sheet['url']; ?>" class="block-link featured">Download Brochure</a>
+    <a href="<?php echo $stone_collection_spec_sheet['url']; ?>" class="block-link featured">Download Spec Sheet</a>
 <?php } ?>
