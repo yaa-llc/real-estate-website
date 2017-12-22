@@ -1,5 +1,13 @@
 (function($) {
 
+    $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        adaptiveHeight: true,
+        imagesLoaded: true
+    });
+
     $('.wpupg-item').on('click', function(){
         console.log('hi');
 
@@ -12,15 +20,18 @@
                var galleryItems = data.acf.project_gallery;
                console.log(galleryItems);
 
+               //$('.gallery-container').append('<div class="main-carousel"><h2>fill</h2></div>');
+
                jQuery.each(galleryItems, function(i,val) {
                     var imageURL = val.sizes.medium_large;
                     var imageAlt= val.alt;
 
-                    //$('.gallery-container').append('<div><h2>appended</h2></div>');
 
                     $('.gallery-container').append('<img src="' + imageURL + '" alt="' + imageAlt + '">').addClass('showGallery');
 
+
                });
+
 
                $('.galleryClose').on('click', function(e){
                    e.preventDefault();
@@ -58,21 +69,7 @@
             } // End if
         });
 
-    $('.main-carousel').flickity({
-        // options
-        cellAlign: 'left',
-        contain: true,
-        adaptiveHeight: true,
-        imagesLoaded: true
-    });
-
-    // $('.gallery-container').flickity({
-    //     // options
-    //     cellAlign: 'left',
-    //     contain: true,
-    //     adaptiveHeight: true,
-    //     imagesLoaded: true
-    // });
+   
 
 
 

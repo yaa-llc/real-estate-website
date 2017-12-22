@@ -19,3 +19,9 @@
         </div>
 
 </section>
+
+<!--<div class="main-carousel">-->
+<!--    <div class="carousel-cell"><img src="http://unsplash.it/500/200" alt=""></div>-->
+<!--    <div class="carousel-cell"><img src="http://unsplash.it/501/201" alt=""></div>-->
+<!--    <div class="carousel-cell"><img src="http://unsplash.it/502/202" alt=""></div>-->
+<!--</div>-->
