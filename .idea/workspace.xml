@@ -5,167 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ac9400-baf8-4e51-ae2e-eb61632e4680" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/dist/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/dist/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/attributes/attr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/attributes/classes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/attributes/prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/attributes/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/attributes/val.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/core/access.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/core/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/core/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/swap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/data/accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/data/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/effects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/effects/Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/effects/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/event/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/event/alias.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/event/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/exports/amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/exports/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/manipulation/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/offset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/queue/delay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/deletedIds.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/push.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/slice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/var/toString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/bower_components/jquery/src/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/css/base.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/css/font.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/css/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/css/resets.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/css/responsive.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/css/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/css/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/basic-carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/basic-slider-with-caption.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/basic-slider-with-custom-direction-nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/carousel-min-max.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/css/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/dynamic-carousel-min-max.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-medium/eot/1110FC_0.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-medium/svg/1110FC_0.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-medium/svg/svg_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-medium/ttf/1110FC_0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-medium/woff/1110FC_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-regular/eot/11014B_0.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-regular/svg/11014B_0.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-regular/svg/svg_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-regular/ttf/11014B_0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-regular/woff/11014B_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-semibold/eot/style_169898.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-semibold/svg/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-semibold/svg/style_169898.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-semibold/ttf/style_169898.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/fonts/webfonts/geo-semibold/woff/style_169898.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/images/kitchen_adventurer_caramel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/images/kitchen_adventurer_cheesecake_brownie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/images/kitchen_adventurer_donut.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/images/kitchen_adventurer_lemon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/froogaloop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/jquery.fitvid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/jquery.mousewheel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/js/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/thumbnail-controlnav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/thumbnail-slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/video-wistia.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/demo/video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/flexslider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/fonts/flexslider-icon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/fonts/flexslider-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/fonts/flexslider-icon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/fonts/flexslider-icon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/images/bg_play_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-0d95828/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.min.js" afterPath="$PROJECT_DIR$/js/main.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/stone-collection/stone-styles.php" afterPath="$PROJECT_DIR$/template-parts/stone-collection/stone-styles.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/woocommerce-FlexSlider-2.6.4-1-g0d95828.zip" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -246,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="177">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <marker date="1513949684000" expanded="true" signature="349:356" ph="×" />
               </folding>
@@ -268,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
@@ -550,10 +390,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263126000" />
+    <option name="totallyTimeSpent" value="263373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1411" height="870" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -562,7 +403,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19844082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19844082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -950,16 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="124" column="119" lean-forward="false" selection-start-line="124" selection-start-column="119" selection-end-line="124" selection-end-column="119" />
-          <folding>
-            <marker date="1513907123000" expanded="true" signature="6467:6513" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/custom-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1010,10 +841,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="177">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <marker date="1513949684000" expanded="true" signature="349:356" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="124" column="119" lean-forward="false" selection-start-line="124" selection-start-column="119" selection-end-line="124" selection-end-column="119" />
+          <folding>
+            <marker date="1513907123000" expanded="true" signature="6467:6513" ph="..." />
           </folding>
         </state>
       </provider>
