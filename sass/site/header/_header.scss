@@ -44,8 +44,12 @@ header:not(.home-slider) {
   flex: 1;
 }
 
+.instagram-wrapper {
+  background: #f1f1f1;
+}
+
 #sb_instagram {
-  margin: 55px 0 65px;
+  padding: 55px 0;
 }
 
 #sb_instagram .sbi_follow_btn {

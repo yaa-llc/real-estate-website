@@ -1,0 +1,32 @@
+{{priority}}
+<!-- highlight featured listing -->
+<div id="master-featured-listing">
+<div class="hc-p2 hc-border hc-rounded hc-mb1 hc-border-green lpr-location lpr-location-featured">
+{{:priority}}
+</div>
+<!-- regular listing -->
+<div class="hc-p2 hc-border hc-rounded hc-mb1 lpr-location">
+    {{/priority}}
+
+    <div class="individual-distributor">
+        {{misc1}}
+        <div class="lpr-location-misc1">{{=misc1}}</div>
+        {{/misc1}}
+            <div class="hc-bold lpr-location-name">{{=name}}</div>
+            <div class="hc-italic lpr-location-address">{{=address}}</div>
+            {{distance}}
+            <div class="hc-bold lpr-location-distance">
+        {{=distance}}
+    </div>
+    </div>
+        {{/distance}}
+    {{phone}}
+    <div class="lpr-location-phone"><div class="hc-inline-block hc-mr1 lpr-location-label">Phone</div>{{=phone}}</div>
+    {{/phone}}
+    {{website}}
+    <div class="lpr-location-website">{{=website}}</div>
+    {{/website}}
+    {{directions}}
+    <div class="lpr-location-directions">{{=directions}}</div>
+    {{/directions}}
+</div>

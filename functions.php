@@ -42,6 +42,7 @@ if ( ! function_exists( 'pacific_art_stone_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
         add_image_size( 'collection-stone-thumb', 382, 256, true );
+        //add_image_size('inspiration-thumb', );
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
@@ -120,11 +121,16 @@ add_action( 'widgets_init', 'pacific_art_stone_widgets_init' );
 function pacific_art_stone_scripts() {
 	wp_enqueue_style( 'pacific-art-stone-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'pacific-art-stone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+    wp_enqueue_style( 'pacific-art-stone-flexstyle', get_template_directory_uri() . '/js/flexslider.css');
+
+    wp_enqueue_script( 'pacific-art-stone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+    wp_enqueue_script( 'flexslider', get_template_directory_uri() . '/js/jquery.flexslider.js', array(), '20151215', true );
 
     wp_enqueue_script( 'pacific-art-stone-skip-link-focus-fix', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.js' );
 
-    wp_enqueue_script( 'main-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20151215', true );
+    wp_enqueue_script( 'main-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery', 'flexslider'), '', true );
+
 
 	wp_enqueue_script( 'pacific-art-stone-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

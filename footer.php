@@ -139,7 +139,11 @@
         s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+<script>
+    jQuery(document).ready(function() {
+        jQuery("#master-featured-listing").prependTo("#local-distributor-list");
+    });
+</script>
 
 </body>
 </html>

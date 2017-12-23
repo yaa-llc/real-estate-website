@@ -14,31 +14,6 @@
   margin-bottom:60px;
 }
 
-//.nimble-portfolio {
-//  max-width: 1200px;
-//  margin: 0 auto;
-//}
-//
-////override pretty photo defaults
-//
-//.pp_default .pp_expand {
-//  display: none!important;
-//}
-//
-//.pp_overlay {
-//  //opacity: 1!important;
-//}
-//
-//.-skin-default .-items .-item .itembox {
-//  box-shadow: none!important;
-//  border: none!important;
-//}
-//
-//.-skin-default .-items .-item .itembox .-mask {
-//  background: #F2F2F2!important;
-//  opacity: 0.6!important;
-//}
-
 .gallery-container {
   display: none;
   position: fixed;
@@ -55,17 +30,41 @@
     margin-right: 10%;
   }
 }
+
+.wpupg-grid {
+  //max-width: 1200px;
+  //margin: 0 auto;
+  //display: flex;
+  //flex-wrap: wrap;
+  //display: flex!important;
+  margin-bottom: 50px;
+}
+
 .gallery-container.showGallery {
   display: flex;
+  //float:left;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   img {
     display: block;
-    width: 25%;
+    width: 20%;
   }
 }
 
+.select2wpupg-container--default .select2wpupg-selection--single {
+  border-radius: none;
+  border: 1px solid #908787;
+  //padding: 5px;
+}
+
+.select2wpupg-selection__placeholder {
+  color: #908787!important;
+}
+
+#wpupg-grid-inspiration-gallery-filter {
+  margin-top: 50px;
+}
 
 @media (max-width: 1200px) {
   .be-inspired {

@@ -103,10 +103,69 @@
   width:15%!important;
 }
 
-.lpr-location-featured::before {
-  content: "Master Distributor";
+.lpr-location-featured::before, .lpr-list-wrapper::before {
   color: #908787;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: $font__weight-bold;
+}
+
+.lpr-location-featured::before {
+  content: "Master Distributor";
+}
+
+.hc-mb3:first-child {
+  //background: blue;
+  //width: 60%!important;
+  //text-align: right;
+  //margin-right: 0;
+  display: flex;
+}
+
+.hc-mb3:nth-child(2) {
+  //text-align: right;
+  align-self:flex-start;
+}
+
+#locatoraid-form-container {
+  //text-align: right;
+}
+
+#hclc_search_form {
+  z-index: 10;
+}
+
+#dealer-locator-link {
+  display: flex;
+}
+//.lpr-list-wrapper::before {
+//  content: "Local Distributors";
+//}
+
+.lpr-location-featured {
+  border: none;
+  background: #F1F1F1;
+}
+
+.hc-rounded {
+  border-radius: 0!important;
+}
+.hc-border-green {
+  border-color: transparent!important;
+}
+
+.hc-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent!important;
+  //border: none;
+}
+
+.hc-outlined {
+  outline: none!important;
+}
+
+
+.hc-bold lpr-location-name, .hc-italic lpr-location-address, lpr-location-phone, lpr-location-website {
+  width: 20%;
 }

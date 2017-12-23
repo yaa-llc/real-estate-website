@@ -1,5 +1,6 @@
 (function($) {
 
+    //flickity init
     $('.main-carousel').flickity({
         // options
         cellAlign: 'left',
@@ -8,10 +9,13 @@
         imagesLoaded: true
     });
 
+    //make custom lightbox
     $('.wpupg-item').on('click', function(){
         console.log('hi');
 
-        $('body').append('<div class="gallery-container"><a class="galleryClose" href="#">&times;</a></div>');
+        $('body').append('<div class="gallery-container"><a class="galleryClose" href="#">&times;</a><div class="flexslider"><ul class="slides"></ul></div></div>');
+        $('.gallery-container').addClass('showGallery');
+
        var itemID = $(this).attr('data-id');
        $.ajax({
            url: '/wp-json/wp/v2/projects/' + itemID,
@@ -27,11 +31,13 @@
                     var imageAlt= val.alt;
 
 
-                    $('.gallery-container').append('<img src="' + imageURL + '" alt="' + imageAlt + '">').addClass('showGallery');
-
+                    $('.slides').append('<li><img src="' + imageURL + '" alt="' + imageAlt + '" class="inspiration-slider"></li>');
+                   //$('.gallery-container').append('<div class="main-carousel"></div>').addClass('showGallery');
 
                });
-
+               $('.flexslider').flexslider({
+                   itemWidth: 500
+               });
 
                $('.galleryClose').on('click', function(e){
                    e.preventDefault();
@@ -43,6 +49,7 @@
        })
     });
 
+    //anything wuth sub menu has no clickable link
     $('.sub-menu').parent().find('a:first').removeAttr('href').css('cursor','default');
 
 
@@ -69,8 +76,23 @@
             } // End if
         });
 
-   
+        //customizing the map
+        $('#hclc_list').wrap('<div class="lpr-list-wrapper" id="local-distributor-list"></div>');
+
+        //$('#hclc_map').appendTo('#dealer-locator-link');
+
+        //$('#hclc_search_form').appendTo('#hclc_map');
+
+    //$('.hc-mb3:first-child').prependTo('#locatoraid-map-list-container');
+    //$('.hc-mb3:first-child').removeClass('.hc-mb3');
+   // $('.hc-mb3:first-child .hc-mb3:nth-child(2)').wrap('<div class=""flex-child></div>');
+    //$('.hc-mb3:first-child').addClass('flex-map-separate');
+    //$('.hc-mb3:nth-child(2)').addClass('flex-map-separate');
+    //$('.flex-map-separate').wrapAll('<div class="flex-item-final"></div>');
+    //$('.flex-item-final').prependTo('.map-container');
 
 
+    //jQuery("#master-featured-listing").detach().prependTo('#hclc_list')
 
 })(jQuery);
+
