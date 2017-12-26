@@ -139,11 +139,5 @@
         s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
-<script>
-//    jQuery(document).ready(function() {
-//        jQuery("#master-featured-listing").prependTo("#local-distributor-list");
-//    });
-</script>
-
 </body>
 </html>

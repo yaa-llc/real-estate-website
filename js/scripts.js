@@ -79,10 +79,8 @@
 
     $('#locatoraid-form-container, #dealer-locator-link').wrap('<div class="inner-wrapper"></div>');
 
-    //$('#master-featured-listing').alert('ikkk);
-    $('.lpr-location-name').on('click', function(){
-        console.log('this bloody works');
-    });
+    $('#locatoraid-map-list-container').removeAttr('id');
+
 
 })(jQuery);
 
