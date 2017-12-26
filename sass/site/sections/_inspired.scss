@@ -37,7 +37,7 @@
   //display: flex;
   //flex-wrap: wrap;
   //display: flex!important;
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
 }
 
 .gallery-container.showGallery {
@@ -52,19 +52,19 @@
   }
 }
 
-.select2wpupg-container--default .select2wpupg-selection--single {
-  border-radius: none;
-  border: 1px solid #908787;
-  //padding: 5px;
-}
-
-.select2wpupg-selection__placeholder {
-  color: #908787!important;
-}
-
-#wpupg-grid-inspiration-gallery-filter {
-  margin-top: 50px;
-}
+//.select2wpupg-container--default .select2wpupg-selection--single {
+//  border-radius: none;
+//  border: 1px solid #908787;
+//  //padding: 5px;
+//}
+//
+//.select2wpupg-selection__placeholder {
+//  color: #908787!important;
+//}
+//
+//#wpupg-grid-inspiration-gallery-filter {
+//  margin-top: 50px;
+//}
 
 @media (max-width: 1200px) {
   .be-inspired {
@@ -91,4 +91,10 @@
   .be-inspired {
     padding-left: 20px;
   }
+}
+
+//playing
+.flexslider .slides img {
+  width: 700px!important;
+  height: auto!important;
 }

@@ -10,8 +10,8 @@
     });
 
     //make custom lightbox
-    $('.wpupg-item').on('click', function(){
-        console.log('hi');
+     $('.wpupg-item').on('click', function(){
+        //console.log('hi');
 
         $('body').append('<div class="gallery-container"><a class="galleryClose" href="#">&times;</a><div class="flexslider"><ul class="slides"></ul></div></div>');
         $('.gallery-container').addClass('showGallery');
@@ -20,11 +20,10 @@
        $.ajax({
            url: '/wp-json/wp/v2/projects/' + itemID,
            success: function(data) {
-               console.log(data);
+               //console.log(data);
                var galleryItems = data.acf.project_gallery;
-               console.log(galleryItems);
+               //console.log(galleryItems);
 
-               //$('.gallery-container').append('<div class="main-carousel"><h2>fill</h2></div>');
 
                jQuery.each(galleryItems, function(i,val) {
                     var imageURL = val.sizes.medium_large;
@@ -32,12 +31,9 @@
 
 
                     $('.slides').append('<li><img src="' + imageURL + '" alt="' + imageAlt + '" class="inspiration-slider"></li>');
-                   //$('.gallery-container').append('<div class="main-carousel"></div>').addClass('showGallery');
+               });
 
-               });
-               $('.flexslider').flexslider({
-                   itemWidth: 500
-               });
+               $('.flexslider').flexslider({});
 
                $('.galleryClose').on('click', function(e){
                    e.preventDefault();
@@ -79,20 +75,14 @@
         //customizing the map
         $('#hclc_list').wrap('<div class="lpr-list-wrapper" id="local-distributor-list"></div>');
 
-        //$('#hclc_map').appendTo('#dealer-locator-link');
+    $('#main').addClass('clearfix');
 
-        //$('#hclc_search_form').appendTo('#hclc_map');
+    $('#locatoraid-form-container, #dealer-locator-link').wrap('<div class="inner-wrapper"></div>');
 
-    //$('.hc-mb3:first-child').prependTo('#locatoraid-map-list-container');
-    //$('.hc-mb3:first-child').removeClass('.hc-mb3');
-   // $('.hc-mb3:first-child .hc-mb3:nth-child(2)').wrap('<div class=""flex-child></div>');
-    //$('.hc-mb3:first-child').addClass('flex-map-separate');
-    //$('.hc-mb3:nth-child(2)').addClass('flex-map-separate');
-    //$('.flex-map-separate').wrapAll('<div class="flex-item-final"></div>');
-    //$('.flex-item-final').prependTo('.map-container');
-
-
-    //jQuery("#master-featured-listing").detach().prependTo('#hclc_list')
+    //$('#master-featured-listing').alert('ikkk);
+    $('.lpr-location-name').on('click', function(){
+        console.log('this bloody works');
+    });
 
 })(jQuery);
 

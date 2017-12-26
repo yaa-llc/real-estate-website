@@ -1,88 +1,3 @@
-//#wpsl-search-wrap {
-//  //float: left;
-//  //width: 100%;
-//  position: absolute;
-//  z-index: 2;
-//  top: 45px;
-//  left: 110px;
-//}
-//
-//.wpsl-search {
-//  background: none;
-//}
-//
-//#wpsl-result-list {
-//  width: 100%;
-//}
-//
-//#wpsl-wrap #wpsl-result-list li {
-//  border-bottom:none;
-//}
-//
-//#wpsl-wrap {
-//  width: auto;
-//  margin-left: auto;
-//}
-//
-//#wpsl-result-list ul {
-//  max-width: 1200px;
-//  margin: 0 auto;
-//  display: flex;
-//  flex-wrap: wrap;
-//}
-//
-//#wpsl-result-list ul li {
-//  margin: 20px 0;
-//}
-//
-//.wpsl-store-below #wpsl-gmap {
-//  width: 727px;
-//  height: 522px;
-//}
-//
-//.map-container {
-//  display: flex;
-//  //justify-content: center;
-//  max-width: 1200px;
-//  margin:auto;
-//}
-//
-//.wpsl-store-location {
-//  //width: 20%;
-//}
-//
-//#wpsl-result-list li {
-//  width:20%;
-//}
-//
-//#wpsl-result-list li p {
-//  display: flex;
-//  flex-direction: column;
-//  //width: 20%;
-//}
-//
-//@media (max-width: 1185px) {
-//  .third {
-//    width: 75%;
-//    //with: 75%;
-//  }
-//  .map-container {
-//    flex-direction: column;
-//    align-items: center;
-//  }
-//}
-//
-////temp change for grouping maps
-////.wpsl-search,
-////#wpsl-gmap {
-////  display: none !important;
-////}
-////
-////#wpsl-result-list {
-////  width: 100%;
-////  margin: 0;
-////}
-
 .pas_locatoroid_map {
   position: relative;
 }
@@ -111,38 +26,14 @@
 }
 
 .lpr-location-featured::before {
-  content: "Master Distributor";
-}
-
-.hc-mb3:first-child {
-  //background: blue;
-  //width: 60%!important;
-  //text-align: right;
-  //margin-right: 0;
-  display: flex;
-}
-
-.hc-mb3:nth-child(2) {
-  //text-align: right;
-  align-self:flex-start;
-}
-
-#locatoraid-form-container {
-  //text-align: right;
+  //content: "Master Distributor";
 }
 
 #hclc_search_form {
   z-index: 10;
 }
 
-#dealer-locator-link {
-  display: flex;
-}
-//.lpr-list-wrapper::before {
-//  content: "Local Distributors";
-//}
-
-.lpr-location-featured {
+#master-featured-listing {
   border: none;
   background: #F1F1F1;
 }
@@ -168,4 +59,54 @@
 
 .hc-bold lpr-location-name, .hc-italic lpr-location-address, lpr-location-phone, lpr-location-website {
   width: 20%;
+}
+
+.hc-mb3:first-child {
+  //background: yellowgreen;
+}
+
+#dealer-locator-link {
+  float: left;
+  width: 30%;
+}
+
+#locatoraid-form-container {
+  //background: springgreen;
+  float: right;
+  //display: inline-block;
+}
+
+#locatoraid-form-container::after {
+  @include clearfix;
+  @include clearfix-after;
+}
+
+.page-id-12 .in-page-link-wrapper {
+  margin-bottom: 30px;
+}
+
+#locatoraid-search-form-button {
+  border: 1px solid #908787;
+  border-radius: 0;
+  height: 30px;
+  background: white;
+  color: #908787;
+  font-weight: $font__weight-bold;
+}
+
+//#master-featured-listing {
+//  color: blue;
+//}
+
+//.individual-distributor {
+//  width:20%;
+//  display: inline-block;
+//}
+
+.lpr-location {
+  //display: inline-block;
+}
+
+#hclc_list {
+  display: flex;
 }

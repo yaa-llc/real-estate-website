@@ -140,9 +140,9 @@
 </script>
 
 <script>
-    jQuery(document).ready(function() {
-        jQuery("#master-featured-listing").prependTo("#local-distributor-list");
-    });
+//    jQuery(document).ready(function() {
+//        jQuery("#master-featured-listing").prependTo("#local-distributor-list");
+//    });
 </script>
 
 </body>
