@@ -62,3 +62,14 @@ get_header(); ?>
 
 <?php
 get_footer();
+
+
+?>
+
+<div class="gallery-container">
+    <a class="galleryClose" href="#">&times;</a><div class="flexslider">
+        <div class="main-carousel">
+
+        </div>
+    </div>
+</div>

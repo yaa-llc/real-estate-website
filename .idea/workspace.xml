@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ac9400-baf8-4e51-ae2e-eb61632e4680" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-css/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-css/jquery.fancybox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page-inspiration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template-parts/stone-collection/stone-nav.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.min.js" afterPath="$PROJECT_DIR$/js/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-stone-collection.php" afterPath="$PROJECT_DIR$/page-stone-collection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/header/_header.scss" afterPath="$PROJECT_DIR$/sass/site/header/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_about.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_about.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" afterPath="$PROJECT_DIR$/sass/site/sections/_inspired.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/typography/_headings.scss" afterPath="$PROJECT_DIR$/sass/typography/_headings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/stone-collection/in-page-nav.php" afterPath="$PROJECT_DIR$/template-parts/stone-collection/in-page-nav.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +25,18 @@
       <file leaf-file-name="_inspired.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/site/sections/_inspired.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+            <state relative-caret-position="418">
+              <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flexslider.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/flexslider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3437">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,10 +55,10 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+            <state relative-caret-position="679">
+              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
               <folding>
-                <marker date="1514403178000" expanded="true" signature="399:406" ph="×" />
+                <marker date="1514406630000" expanded="true" signature="399:406" ph="×" />
               </folding>
             </state>
           </provider>
@@ -68,9 +67,11 @@
       <file leaf-file-name="page-stone-collection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="60" column="27" lean-forward="false" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="679">
+              <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+              <folding>
+                <element signature="e#2092#2099#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,18 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="125" column="6" lean-forward="false" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
-              <folding>
-                <marker date="1514394435000" expanded="true" signature="7055:7101" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,8 +119,8 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="56" column="15" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+            <state relative-caret-position="655">
+              <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
               <folding>
                 <element signature="e#13#34#0" expanded="false" />
                 <element signature="e#71#148#0" expanded="false" />
@@ -145,23 +134,22 @@
                 <element signature="e#751#785#0" expanded="false" />
                 <element signature="e#806#832#0" expanded="false" />
                 <element signature="e#902#925#0" expanded="false" />
-                <element signature="e#959#1102#0" expanded="false" />
                 <element signature="e#1159#1324#0" expanded="false" />
                 <element signature="e#1347#1396#0" expanded="false" />
                 <element signature="e#1417#1447#0" expanded="false" />
                 <element signature="e#1469#1489#0" expanded="false" />
                 <element signature="e#1512#1564#0" expanded="false" />
                 <element signature="e#1582#1624#0" expanded="false" />
-                <element signature="e#1642#1712#0" expanded="false" />
-                <element signature="e#1741#2160#0" expanded="false" />
-                <element signature="e#1783#1811#0" expanded="false" />
-                <element signature="e#1868#1927#0" expanded="false" />
-                <element signature="e#1958#1991#0" expanded="false" />
-                <element signature="e#2010#2060#0" expanded="false" />
-                <element signature="e#2081#2109#0" expanded="false" />
-                <element signature="e#2129#2158#0" expanded="false" />
-                <element signature="e#2188#2244#0" expanded="false" />
-                <element signature="e#2212#2242#0" expanded="false" />
+                <element signature="e#1643#1713#0" expanded="false" />
+                <element signature="e#1831#2250#0" expanded="false" />
+                <element signature="e#1873#1901#0" expanded="false" />
+                <element signature="e#1958#2017#0" expanded="false" />
+                <element signature="e#2048#2081#0" expanded="false" />
+                <element signature="e#2100#2150#0" expanded="false" />
+                <element signature="e#2171#2199#0" expanded="false" />
+                <element signature="e#2219#2248#0" expanded="false" />
+                <element signature="e#2278#2334#0" expanded="false" />
+                <element signature="e#2302#2332#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -179,7 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.pp_expand</find>
       <find>smooths</find>
       <find>collect</find>
       <find>body</find>
@@ -209,6 +196,7 @@
       <find>flexslider</find>
       <find>transform</find>
       <find>fancyb</find>
+      <find>caour</find>
     </findStrings>
     <replaceStrings>
       <replace>$projectQuery</replace>
@@ -265,11 +253,11 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/template-parts/stone-collection/stone-styles.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/page-stone-collection.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/template-parts/stone-collection/brochure.php" />
         <option value="$PROJECT_DIR$/sass/site/sections/_inspired.scss" />
         <option value="$PROJECT_DIR$/sass/site/header/_header.scss" />
+        <option value="$PROJECT_DIR$/page-stone-collection.php" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
       </list>
     </option>
@@ -464,12 +452,12 @@
       <workItem from="1513771277972" duration="21333000" />
       <workItem from="1514048076185" duration="1330000" />
       <workItem from="1514293882637" duration="11272000" />
-      <workItem from="1514309521722" duration="29365000" />
+      <workItem from="1514309521722" duration="30972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328355000" />
+    <option name="totallyTimeSpent" value="329962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1411" height="870" extended-state="0" />
@@ -530,13 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template-parts/home/quick-links.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/site/secondary/_widgets.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1024,14 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/stone-styles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/in-page-nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1053,26 +1026,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="60" column="27" lean-forward="false" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/brochure.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/site/sections/_inspired.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1085,10 +1042,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/stone-collection/stone-styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/flexslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3437">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/site/sections/_inspired.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/site/header/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="56" column="15" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        <state relative-caret-position="655">
+          <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
           <folding>
             <element signature="e#13#34#0" expanded="false" />
             <element signature="e#71#148#0" expanded="false" />
@@ -1102,33 +1083,42 @@
             <element signature="e#751#785#0" expanded="false" />
             <element signature="e#806#832#0" expanded="false" />
             <element signature="e#902#925#0" expanded="false" />
-            <element signature="e#959#1102#0" expanded="false" />
             <element signature="e#1159#1324#0" expanded="false" />
             <element signature="e#1347#1396#0" expanded="false" />
             <element signature="e#1417#1447#0" expanded="false" />
             <element signature="e#1469#1489#0" expanded="false" />
             <element signature="e#1512#1564#0" expanded="false" />
             <element signature="e#1582#1624#0" expanded="false" />
-            <element signature="e#1642#1712#0" expanded="false" />
-            <element signature="e#1741#2160#0" expanded="false" />
-            <element signature="e#1783#1811#0" expanded="false" />
-            <element signature="e#1868#1927#0" expanded="false" />
-            <element signature="e#1958#1991#0" expanded="false" />
-            <element signature="e#2010#2060#0" expanded="false" />
-            <element signature="e#2081#2109#0" expanded="false" />
-            <element signature="e#2129#2158#0" expanded="false" />
-            <element signature="e#2188#2244#0" expanded="false" />
-            <element signature="e#2212#2242#0" expanded="false" />
+            <element signature="e#1643#1713#0" expanded="false" />
+            <element signature="e#1831#2250#0" expanded="false" />
+            <element signature="e#1873#1901#0" expanded="false" />
+            <element signature="e#1958#2017#0" expanded="false" />
+            <element signature="e#2048#2081#0" expanded="false" />
+            <element signature="e#2100#2150#0" expanded="false" />
+            <element signature="e#2171#2199#0" expanded="false" />
+            <element signature="e#2219#2248#0" expanded="false" />
+            <element signature="e#2278#2334#0" expanded="false" />
+            <element signature="e#2302#2332#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-stone-collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          <folding>
+            <element signature="e#2092#2099#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        <state relative-caret-position="679">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding>
-            <marker date="1514403178000" expanded="true" signature="399:406" ph="×" />
+            <marker date="1514406630000" expanded="true" signature="399:406" ph="×" />
           </folding>
         </state>
       </provider>

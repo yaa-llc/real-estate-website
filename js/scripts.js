@@ -39,7 +39,9 @@
                    controlNav: false,
                    touch: true,
                    keyboard: true,
-                   smoothHeight: true
+                   smoothHeight: true,
+                   direction: "horizontal",
+                   slideshow: false
                    //itemWidth: 500
                });
 

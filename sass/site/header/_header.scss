@@ -106,10 +106,17 @@ header:not(.home-slider) {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .slider-headline {
   //max-width: 1200px;
   //margin: 0 auto;
   //position: absolute;
+}
+
+//the inspo slider
+.gallery-container .carousel-cell {
+  height:600px;
+  width: auto;
 }
 
 @media (max-width: 1200px) {

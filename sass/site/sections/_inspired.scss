@@ -41,8 +41,8 @@
   justify-content: center;
   flex-wrap: wrap;
   img {
-    display: block;
-    width: 20%;
+    //display: block;
+    //width: 20%;
   }
 }
 
@@ -68,6 +68,11 @@
 .flexslider {
   border-radius: 0!important;
   border: none!important;
+  max-width:1200px;
+}
+
+.flex-direction-nav a  {
+  line-height: 40px;
 }
 
 .overlay {
