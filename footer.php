@@ -139,5 +139,7 @@
         s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
+
 </body>
 </html>

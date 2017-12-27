@@ -33,7 +33,15 @@
                     $('.slides').append('<li><img src="' + imageURL + '" alt="' + imageAlt + '" class="inspiration-slider"></li>');
                });
 
-               $('.flexslider').flexslider({});
+               $('.flexslider').wrap('<div class="flexslider-wrapper"></div>');
+
+               $('.flexslider').flexslider({
+                   controlNav: false,
+                   touch: true,
+                   keyboard: true,
+                   smoothHeight: true
+                   //itemWidth: 500
+               });
 
                $('.galleryClose').on('click', function(e){
                    e.preventDefault();
@@ -45,7 +53,25 @@
        })
     });
 
+     //pulling the view project image
+     $.ajax({
+        url:  '/wp-json/wp/v2/media/843',
+         success: function(data) {
+            console.log(data);
+
+            var overlayURL = data.source_url;
+
+             $('.wpupg-item').prepend('<div class="overlay"><div class="overlay-center"><img src="' + overlayURL + '"><h4>view project images</h4></div></div>');
+         }
+     });
+
+
+
     $('.wpupg-item').addClass('wpupg-item-margin');
+
+
+
+    $('#wpupg-grid-inspiration-gallery-filter').prepend('<h2 class="inline-heading">View projects by</h2>');
 
     //anything wuth sub menu has no clickable link
     $('.sub-menu').parent().find('a:first').removeAttr('href').css('cursor','default');
@@ -66,7 +92,7 @@
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
-                }, 800, function(){
+                }, 900, function(){
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
 
@@ -75,14 +101,14 @@
         });
 
         //customizing the map
-        $('#hclc_list').wrap('<div class="lpr-list-wrapper" id="local-distributor-list"></div>');
+       // $('#hclc_list').wrap('<div class="lpr-list-wrapper" id="local-distributor-list"></div>');
+    $('#master-featured-listing').addClass('#hclc_list');
 
     $('#main').addClass('clearfix');
 
     $('#locatoraid-form-container, #dealer-locator-link').wrap('<div class="inner-wrapper"></div>');
 
-    //$('#hclc_list').children().wrap('<div class="child-wrap"></div>');
-
+    //$('body').css('color', 'blue');
 
 })(jQuery);
 

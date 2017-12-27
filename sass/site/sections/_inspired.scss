@@ -21,6 +21,9 @@
   top: 0;
   bottom: 0;
   background: rgba(0,0,0,1);
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
   a {
     text-decoration: none;
     color: white;
@@ -29,15 +32,6 @@
     width: 100%;
     margin-right: 10%;
   }
-}
-
-.wpupg-grid {
-  //max-width: 1200px;
-  //margin: 0 auto;
-  //display: flex;
-  //flex-wrap: wrap;
-  //display: flex!important;
-  //margin-bottom: 50px;
 }
 
 .gallery-container.showGallery {
@@ -53,11 +47,56 @@
 }
 
 .wpupg-item-margin {
-  margin: 5px 2px!important;
+  margin: 5px 5px 5px 0!important;
 }
 
-.flex-direction-nav a.flex-next::before {
-  content: 'I GO THIS WAY';
+//styling the filter boxes
+.select2wpupg-container--default .select2wpupg-selection--single {
+  border-radius: 0;
+}
+
+//styling the dropdown filters
+.select2wpupg-results, .selection {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.select2wpupg-container--default .select2wpupg-selection--single {
+  border-bottom: 1px solid #908787!important;
+}
+
+.flexslider {
+  border-radius: 0!important;
+  border: none!important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease!important;
+  background-color: rgba(241,241,241,0.8)!important;
+}
+
+.overlay {
+  text-align: center;
+}
+
+.overlay-center {
+  @include absolute-center;
+}
+
+.wpupg-item {
+  //background: #f1f1f1;
+}
+
+.wpupg-item:hover .overlay {
+  opacity: 1;
 }
 
 @media (max-width: 1200px) {
@@ -85,10 +124,4 @@
   .be-inspired {
     padding-left: 20px;
   }
-}
-
-//playing
-.flexslider .slides img {
-  width: 700px!important;
-  height: auto!important;
 }

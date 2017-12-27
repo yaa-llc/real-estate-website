@@ -22,13 +22,9 @@ get_header(); ?>
 
             <!-- the page title, main content & thumbnail, spec sheet download -->
             <section class="primary-content stone-content">
-                <?php if ( have_rows( 'stone_collection_in_page_nav' ) ): ?>
-                    <?php while ( have_rows( 'stone_collection_in_page_nav' ) ) : the_row(); ?>
-                                <?php get_template_part('template-parts/stone-collection/in-page-nav'); ?>
-                    <?php endwhile; ?>
-                <?php else: ?>
-                    <?php // no layouts found ?>
-                <?php endif; ?>
+
+              <?php get_template_part('template-parts/stone-collection/in-page-nav'); ?>
+
                 <div class="inner-wrapper">
                     <div class="stone-collection-wrapper content-wrapper">
                         <div class="half text">

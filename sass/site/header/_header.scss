@@ -39,6 +39,12 @@ header:not(.home-slider) {
   align-items: center;
 }
 
+.image-overlay {
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-position: center;
+}
+
 .flex-title {
   text-align: left;
   flex: 1;

@@ -38,3 +38,12 @@ h4 {
 h5 {
 	//text-transform: uppercase;
 }
+
+//header on inspiration page
+.inline-heading {
+	display: inline-block;
+	font-weight: $font__weight-light;
+	text-transform: none;
+	margin-right: 20px;
+}
+
