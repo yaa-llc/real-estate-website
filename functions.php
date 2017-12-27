@@ -292,18 +292,3 @@ add_filter( 'wpupg_output_grid_block_custom-field', 'wpupg_acf', 10, 3 );
 //enqueue font awesome
 wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
-//making dropdowns
-//add_filter( 'wpsl_dropdown_category_args', 'custom_dropdown_category_args' );
-//
-//function custom_dropdown_category_args( $args ) {
-//
-//    if ( is_page( 10 ) ) { //this is the page you want the custom dropdown to appear on.
-//        $args['child_of'] = 53; //The ID of the parent category you want the sub categories to show in the dropdown.
-//  } else if ( is_page( 10 ) ) { //another page you want a different custom dropdown to appear on.
-//        $args['child_of'] = 44; //A different of the parent category you want the sub categories to show in the dropdown.
-//    } else if ( is_page( 10) ) { //another page you want a different custom dropdown to appear on.
-//        $args['child_of'] = 33; //A different ID of the parent category you want the sub categories to show in the dropdown.
-//	}
-//
-//    return $args;
-//}

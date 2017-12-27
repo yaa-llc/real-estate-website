@@ -45,6 +45,8 @@
        })
     });
 
+    $('.wpupg-item').addClass('wpupg-item-margin');
+
     //anything wuth sub menu has no clickable link
     $('.sub-menu').parent().find('a:first').removeAttr('href').css('cursor','default');
 
@@ -79,7 +81,7 @@
 
     $('#locatoraid-form-container, #dealer-locator-link').wrap('<div class="inner-wrapper"></div>');
 
-    $('#locatoraid-map-list-container').removeAttr('id');
+    //$('#hclc_list').children().wrap('<div class="child-wrap"></div>');
 
 
 })(jQuery);

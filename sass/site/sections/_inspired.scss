@@ -52,19 +52,13 @@
   }
 }
 
-//.select2wpupg-container--default .select2wpupg-selection--single {
-//  border-radius: none;
-//  border: 1px solid #908787;
-//  //padding: 5px;
-//}
-//
-//.select2wpupg-selection__placeholder {
-//  color: #908787!important;
-//}
-//
-//#wpupg-grid-inspiration-gallery-filter {
-//  margin-top: 50px;
-//}
+.wpupg-item-margin {
+  margin: 5px 2px!important;
+}
+
+.flex-direction-nav a.flex-next::before {
+  content: 'I GO THIS WAY';
+}
 
 @media (max-width: 1200px) {
   .be-inspired {
