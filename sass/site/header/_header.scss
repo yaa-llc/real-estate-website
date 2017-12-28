@@ -55,7 +55,7 @@ header:not(.home-slider) {
 }
 
 #sb_instagram {
-  padding: 55px 0;
+  padding: 55px 0!important;
 }
 
 #sb_instagram .sbi_follow_btn {
@@ -114,10 +114,10 @@ header:not(.home-slider) {
 }
 
 //the inspo slider
-.gallery-container .carousel-cell {
-  height:600px;
-  width: auto;
-}
+//.gallery-container .carousel-cell {
+//  height:600px;
+//  width: auto;
+//}
 
 @media (max-width: 1200px) {
   .main-navigation li:not(.sub-menu li) {
@@ -144,6 +144,10 @@ header:not(.home-slider) {
 
   .text-container {
     text-align: center;
+  }
+
+  .flickity-viewport {
+    height: 50vh;
   }
 }
 

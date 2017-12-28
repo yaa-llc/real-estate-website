@@ -57,9 +57,9 @@
 }
 
 
-.hc-bold lpr-location-name, .hc-italic lpr-location-address, lpr-location-phone, lpr-location-website {
-  width: 20%;
-}
+//.hc-bold .lpr-location-name, .hc-italic .lpr-location-address, lpr-location-phone, lpr-location-website {
+//  width: 20%;
+//}
 
 .hc-mb3:first-child {
   //background: yellowgreen;
@@ -116,4 +116,8 @@
   width: 275px;
   margin-top: 15px;
   //margin-right:30px;
+}
+
+#local-distributor-list {
+  margin-bottom: 60px;
 }

@@ -33,7 +33,8 @@ get_header(); ?>
                         </div>
 
                         <div class="half stone-collection-image-wrapper">
-                            <?php the_post_thumbnail(); ?>
+                            <?php $inspoLink = get_the_permalink('10'); ?>
+                            <a href="<?php echo $inspoLink; ?>"><?php the_post_thumbnail(); ?></a>
                         </div>
 
                     </div>
@@ -63,13 +64,3 @@ get_header(); ?>
 <?php
 get_footer();
 
-
-?>
-
-<div class="gallery-container">
-    <a class="galleryClose" href="#">&times;</a><div class="flexslider">
-        <div class="main-carousel">
-
-        </div>
-    </div>
-</div>

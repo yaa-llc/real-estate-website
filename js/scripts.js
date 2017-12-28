@@ -39,10 +39,12 @@
                    controlNav: false,
                    touch: true,
                    keyboard: true,
-                   smoothHeight: true,
-                   direction: "horizontal",
-                   slideshow: false
+                   //smoothHeight: true,
+                   //direction: "horizontal",
+                   slideshow: false,
                    //itemWidth: 500
+                  // prevText: "<",
+                   //nextText: ">"
                });
 
                $('.galleryClose').on('click', function(e){
@@ -103,14 +105,16 @@
         });
 
         //customizing the map
-       // $('#hclc_list').wrap('<div class="lpr-list-wrapper" id="local-distributor-list"></div>');
+    $('#hclc_list').wrap('<div class="lpr-list-wrapper" id="local-distributor-list"></div>');
+
     $('#master-featured-listing').addClass('#hclc_list');
 
     $('#main').addClass('clearfix');
 
     $('#locatoraid-form-container, #dealer-locator-link').wrap('<div class="inner-wrapper"></div>');
 
-    //$('body').css('color', 'blue');
+    $('#master-featured-listing').prependTo('#hclc_list');
+
 
 })(jQuery);
 

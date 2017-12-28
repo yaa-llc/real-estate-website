@@ -46,6 +46,14 @@
   }
 }
 
+#wpupg-grid-inspiration-gallery-filter {
+  margin-top: 60px;
+}
+
+#wpupg-grid-inspiration-gallery {
+  margin-bottom: 60px!important;
+}
+
 .wpupg-item-margin {
   margin: 5px 5px 5px 0!important;
 }
@@ -68,12 +76,49 @@
 .flexslider {
   border-radius: 0!important;
   border: none!important;
+  //overflow: auto;
   max-width:1200px;
+  max-height:800px;
 }
+
+/*
 
 .flex-direction-nav a  {
   line-height: 40px;
 }
+*/
+
+
+
+.flex-direction-nav a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.flex-direction-nav .flex-next {
+  right: -50px;
+  text-align: center;
+}
+
 
 .overlay {
   position: absolute;
@@ -130,3 +175,46 @@
     padding-left: 20px;
   }
 }
+
+/*
+.flex-direction-nav a {
+  display: block;
+  position: absolute;
+  margin: -17px 0 0 0;
+  width: 35px;
+  height: 35px;
+  top: 50%;
+  cursor: pointer;
+  text-indent: -9999px;
+
+  background-color: #bfab8b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bfab8b), to(#f5e2c1));
+  background-image: -webkit-linear-gradient(top, #bfab8b, #f5e2c1);
+  background-image: -moz-linear-gradient(top, #bfab8b, #f5e2c1);
+  background-image: -o-linear-gradient(top, #bfab8b, #f5e2c1);
+  background-image: linear-gradient(to bottom, #bfab8b, #f5e2c1);
+}
+
+.flex-direction-nav a:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 9px;
+  height: 13px;
+  top: 11px;
+  left: 11px;
+  background-image:
+          linear-gradient(-45deg, #dac6a6 4px, transparent 4px),
+          linear-gradient(-135deg, #dac6a6 4px, transparent 4px),
+          linear-gradient(-45deg, #69604f 6px, transparent 6px),
+          linear-gradient(-135deg, #69604f 6px, transparent 6px);
+
+}
+
+.flex-direction-nav a.flex-prev:before {
+  background-image:
+          linear-gradient(45deg, #dac6a6 4px, transparent 4px),
+          linear-gradient(135deg, #dac6a6 4px, transparent 4px),
+          linear-gradient(45deg, #69604f 6px, transparent 6px),
+          linear-gradient(135deg, #69604f 6px, transparent 6px);
+}*/
